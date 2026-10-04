@@ -1,0 +1,128 @@
+[
+  {
+    "id": "item_1788621502190",
+    "userId": "usr_default",
+    "kategori": "atasan",
+    "nama": "Kemeja Putih",
+    "warna": "Putih",
+    "warnaHex": "#C5A880",
+    "tag": [
+      "formal"
+    ],
+    "catatan": "",
+    "dibuatPada": "2026-09-05T15:18:22.190Z"
+  },
+  {
+    "id": "item_1788610860261",
+    "userId": "usr_default",
+    "kategori": "atasan",
+    "nama": "Kemaja Polyester Hitam",
+    "warna": "Hitam",
+    "warnaHex": "#C5A880",
+    "tag": [
+      "formal",
+      "casual"
+    ],
+    "catatan": "",
+    "dibuatPada": "2026-09-05T12:21:00.261Z"
+  },
+  {
+    "id": "item_001",
+    "userId": "usr_default",
+    "kategori": "atasan",
+    "nama": "Kemeja Linen Putih Kerah Shanghai",
+    "warna": "Putih",
+    "warnaHex": "#FFFFFF",
+    "tag": [
+      "formal",
+      "casual",
+      "breathable",
+      "minimalis"
+    ],
+    "catatan": "Bahan adem, cocok untuk indoor & outdoor"
+  },
+  {
+    "id": "item_002",
+    "userId": "usr_default",
+    "kategori": "outerwear",
+    "nama": "Oversized Blazer Sand Beige",
+    "warna": "Beige Sand",
+    "warnaHex": "#D8C3A5",
+    "tag": [
+      "smart casual",
+      "semi formal",
+      "layering"
+    ],
+    "catatan": "Potongan loose, memberikan siluet modern"
+  },
+  {
+    "id": "item_003",
+    "userId": "usr_default",
+    "kategori": "bawahan",
+    "nama": "Pleated Ankle Trousers Charcoal Grey",
+    "warna": "Charcoal Grey",
+    "warnaHex": "#343A40",
+    "tag": [
+      "kantor",
+      "formal",
+      "tailored"
+    ],
+    "catatan": "Karet samping nyaman dipakai seharian"
+  },
+  {
+    "id": "item_004",
+    "userId": "usr_default",
+    "kategori": "bawahan",
+    "nama": "Wide-leg Highwaist Denim Biru Medium",
+    "warna": "Medium Denim",
+    "warnaHex": "#4A6FA5",
+    "tag": [
+      "casual",
+      "weekend",
+      "retro"
+    ],
+    "catatan": "Bahan denim washed yang lemas"
+  },
+  {
+    "id": "item_005",
+    "userId": "usr_default",
+    "kategori": "alasKaki",
+    "nama": "Leather Penny Loafers Dark Brown",
+    "warna": "Coklat Tua",
+    "warnaHex": "#3E2723",
+    "tag": [
+      "classic",
+      "smart casual",
+      "kulit"
+    ],
+    "catatan": "Sol empuk untuk mobilitas tinggi"
+  },
+  {
+    "id": "item_006",
+    "userId": "usr_default",
+    "kategori": "alasKaki",
+    "nama": "Minimalist White Leather Sneakers",
+    "warna": "Putih Bersih",
+    "warnaHex": "#FAFAFA",
+    "tag": [
+      "casual",
+      "versatile",
+      "sneakers"
+    ],
+    "catatan": "Serasi dengan hampir semua outfit kasual"
+  },
+  {
+    "id": "item_007",
+    "userId": "usr_default",
+    "kategori": "aksesori",
+    "nama": "Structured Leather Tote Bag Tan",
+    "warna": "Tan Coklat",
+    "warnaHex": "#A0522D",
+    "tag": [
+      "kerja",
+      "tas",
+      "aksesori"
+    ],
+    "catatan": "Muat laptop 14 inch"
+  }
+]

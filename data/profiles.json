@@ -1,0 +1,35 @@
+[
+  {
+    "id": "usr_default",
+    "namaOpsional": "Rani",
+    "gender": "female",
+    "tinggiBadan": 168,
+    "beratBadan": 55,
+    "bentukTubuh": "Jam Pasir (Hourglass)",
+    "ukuranBaju": "M",
+    "catatanProporsi": "Kaki jenjang, pinggang ramping",
+    "preferensi": {
+      "gender": "female",
+      "gayaFavorit": [
+        "smart casual",
+        "minimalis",
+        "earth tone"
+      ],
+      "warnaFavorit": [
+        "#FFFFFF",
+        "#1E1E24",
+        "#C5A880"
+      ],
+      "budget": "menengah",
+      "tipeTubuh": "regular",
+      "tinggiBadan": 168,
+      "beratBadan": 55,
+      "bentukTubuh": "Jam Pasir (Hourglass)",
+      "ukuranBaju": "M",
+      "catatanProporsi": "Kaki jenjang, pinggang ramping",
+      "bahasa": "en"
+    },
+    "dibuatPada": "2026-09-04T10:00:00.000Z",
+    "diubahPada": "2026-10-04T06:17:30.237Z"
+  }
+]

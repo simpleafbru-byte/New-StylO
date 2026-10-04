@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StylO — Dress with ease.</title>
+  <link rel="icon" type="image/png" href="gambarikicok/logo.png">
+  <link rel="apple-touch-icon" href="gambarikicok/logo.png">
+  <meta name="description"
+    content="Personal stylist AI modern dengan pengalaman minimalis. Design smarter with AI that understands you. So you can take a breath.">
+
+  <!-- Modern Clean Typography: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==============================================
+       1. FLOATING CAPSULE NAVBAR (StylO Style)
+  ============================================== -->
+  <header class="floating-nav-wrapper">
+    <nav class="pill-navbar" id="pillNavbar" role="navigation">
+      <div class="nav-brand" id="navBrandLogo" title="StylO — Dress with ease.">
+        <span class="brand-icon">✦</span>
+        <span class="brand-text">Styl<span class="brand-accent">O</span></span>
+      </div>
+      <div class="nav-brand-divider" aria-hidden="true"></div>
+
+      <div class="nav-menu-links">
+        <a href="#hero-section" class="nav-link active" data-tab-target="hero" data-i18n="nav.home">Home</a>
+        <a href="#studio-section" class="nav-link" data-tab-target="studio" data-i18n="nav.studio">Studio AI</a>
+        <a href="#studio-section" class="nav-link" data-tab-target="wardrobe"><span
+            data-i18n="nav.wardrobe">Lemari</span> <span class="nav-count-badge" id="navWardrobeCount">7</span></a>
+        <a href="#studio-section" class="nav-link" data-tab-target="shop" data-i18n="nav.shop">Shop</a>
+        <a href="#studio-section" class="nav-link" data-tab-target="history" data-i18n="nav.history">Riwayat</a>
+        <a href="#studio-section" class="nav-link" data-tab-target="profile" data-i18n="nav.profile">Profil</a>
+        <a href="#stores-section" class="nav-link" data-tab-target="stores" data-i18n="nav.stores">Toko Terdekat</a>
+      </div>
+
+      <div class="nav-right-actions">
+        <button type="button" class="nav-weather-pill" id="navWeatherBadge"
+          title="Prakiraan Cuaca Hari Ini (Klik untuk rincian)" data-i18n-title="nav.weather_title">
+          <span class="nav-weather-icon">🌤️</span>
+          <span class="nav-weather-text"><strong>31°C</strong> Jakarta</span>
+        </button>
+        <button type="button" class="nav-lang-pill" id="navLangToggle" title="Ganti Bahasa (Switch to English)"
+          data-i18n-title="nav.lang_toggle_title" aria-label="Toggle Language">
+          <span class="nav-lang-flag" id="navLangFlag">🇮🇩</span>
+          <span class="nav-lang-code" id="navLangLabel">ID</span>
+        </button>
+        <button class="nav-status-indicator" id="navAiStatusPill" title="Gemini 3.5 Flash Active">
+          <span class="pulsing-green-dot"></span>
+          <span class="status-model-name" id="navModelText">Gemini 3.5 Flash</span>
+        </button>
+        <button class="nav-login-pill" id="btnNavAction"><span class="nav-cta-sparkle">✦</span> <span
+            data-i18n="nav.action">Racik Outfit</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==============================================
+       2. HERO SECTION (Alpine Meadow Backdrop)
+  ============================================== -->
+  <section class="hero-section" id="hero-section">
+    <div class="hero-backdrop-overlay"></div>
+
+    <div class="hero-content">
+      <!-- Floating Announcement Capsule Badge -->
+      <div class="hero-announcement-pill" id="heroBadgePill">
+        <span data-i18n="hero.badge">✨ Powered by Gemini 3.5 Flash</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="hero-headline" data-i18n="hero.headline">Dress with ease.</h1>
+
+      <!-- Clean Subtitle -->
+      <p class="hero-description" data-i18n="hero.description">
+        Design smarter with AI that understands you.<br>
+        So you can take a breath.
+      </p>
+
+      <!-- Pill Action Buttons -->
+      <div class="hero-cta-group">
+        <a href="#studio-section" class="btn-pill-light" id="btnHeroGetStarted" data-i18n="hero.cta">Get Started →</a>
+      </div>
+    </div>
+
+    <!-- Floating Scroll Indicator -->
+    <a href="#studio-section" class="hero-scroll-capsule" id="heroScrollBtn" aria-label="Scroll ke Studio">
+      <span data-i18n="hero.scroll">SCROLL ↓</span>
+    </a>
+  </section>
+
+  <!-- ==============================================
+       2.5 EDITORIAL RUNNING MARQUEE BANNER
+  ============================================== -->
+  <div class="aesthetic-marquee-banner" aria-label="Fashion & Styling Highlights">
+    <!-- Animated shimmer overlay -->
+    <div class="marquee-shimmer-overlay"></div>
+
+    <!-- Row 1: Forward scroll -->
+    <div class="marquee-row">
+      <div class="marquee-inner">
+        <div class="marquee-track">
+          <span class="marquee-item"><span class="marquee-star">✦</span> EFFORTLESS CHIC</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> PERSONAL PROPORTION AI</span>
+          <span class="marquee-item"><span class="marquee-star">✦</span> WARDROBE HARMONY</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> GEMINI MULTIMODAL AI</span>
+          <span class="marquee-item"><span class="marquee-star">✦</span> UNDERTONE COLOR ANALYSIS</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> TIMELESS SILHOUETTES</span>
+          <span class="marquee-item"><span class="marquee-star">✦</span> SMART CURATION</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> DAILY OUTFIT INSPIRATION</span>
+        </div>
+        <div class="marquee-track" aria-hidden="true">
+          <span class="marquee-item"><span class="marquee-star">✦</span> EFFORTLESS CHIC</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> PERSONAL PROPORTION AI</span>
+          <span class="marquee-item"><span class="marquee-star">✦</span> WARDROBE HARMONY</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> GEMINI MULTIMODAL AI</span>
+          <span class="marquee-item"><span class="marquee-star">✦</span> UNDERTONE COLOR ANALYSIS</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> TIMELESS SILHOUETTES</span>
+          <span class="marquee-item"><span class="marquee-star">✦</span> SMART CURATION</span>
+          <span class="marquee-item"><span class="marquee-star">◆</span> DAILY OUTFIT INSPIRATION</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2: Reverse scroll -->
+    <div class="marquee-row marquee-row-reverse">
+      <div class="marquee-inner">
+        <div class="marquee-track marquee-track-reverse">
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> VOICE STYLIST</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> VISUAL INSPO
+            RECREATOR</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> WEATHER-ADAPTIVE
+            FASHION</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> AI BODY PROPORTION</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> CLOSET MATCHING
+            ENGINE</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> COLOR PALETTE
+            HARMONY</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> QUIET LUXURY</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> DRESS WITH EASE</span>
+        </div>
+        <div class="marquee-track marquee-track-reverse" aria-hidden="true">
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> VOICE STYLIST</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> VISUAL INSPO
+            RECREATOR</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> WEATHER-ADAPTIVE
+            FASHION</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> AI BODY PROPORTION</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> CLOSET MATCHING
+            ENGINE</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> COLOR PALETTE
+            HARMONY</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> QUIET LUXURY</span>
+          <span class="marquee-item marquee-item-outline"><span class="marquee-star">✧</span> DRESS WITH EASE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==============================================
+       3. MAIN WORKSPACE / STUDIO SECTION
+  ============================================== -->
+  <main class="studio-section" id="studio-section">
+    <div class="container-workspace">
+
+      <!-- Navigation Tabs Segmented Capsule -->
+      <div class="workspace-segmented-capsule">
+        <button class="segment-btn active" data-workspace-tab="studio" id="tabBtnStudio">
+          <span data-i18n="tab.studio">✨ Studio Stylist</span>
+        </button>
+        <button class="segment-btn" data-workspace-tab="wardrobe" id="tabBtnWardrobe">
+          <span data-i18n="tab.wardrobe">👗 Lemari Digital</span>
+          <span class="count-bubble" id="wardrobeCountBadge">7</span>
+        </button>
+        <button class="segment-btn" data-workspace-tab="history" id="tabBtnHistory">
+          <span data-i18n="tab.history">🤍 Riwayat & Favorit</span>
+        </button>
+        <button class="segment-btn" data-workspace-tab="shop" id="tabBtnShop">
+          <span data-i18n="tab.shop">🛍️ Shop</span>
+        </button>
+        <button class="segment-btn" data-workspace-tab="profile" id="tabBtnProfile">
+          <span data-i18n="tab.profile">⚙️ Profil Gaya</span>
+        </button>
+      </div>
+
+      <!-- ==========================================
+           2.8 WEATHER FORECAST & WHAT-TO-WEAR GUIDE
+      ========================================== -->
+      <section class="weather-forecast-banner" id="weatherForecastCard" aria-label="Prakiraan Cuaca & Panduan Busana">
+        <!-- Top Toolbar: Real-time User Location + Auto-detect + Toggle -->
+        <div class="weather-banner-top">
+          <div class="weather-location-group">
+            <div class="user-live-loc-pill" id="userLiveLocPill"
+              title="Prakiraan cuaca otomatis berdasarkan lokasi Anda saat ini">
+              <span class="gps-pulse-beacon"></span>
+              <span class="weather-pin-icon">📍</span>
+              <div class="loc-text-wrap">
+                <span class="loc-sub" data-i18n="weather.your_loc">Lokasi Anda:</span>
+                <strong class="loc-city-name" id="dispWeatherCity" data-i18n="weather.detecting">Mendeteksi Lokasi...</strong>
+              </div>
+            </div>
+            <button type="button" class="btn-weather-gps" id="btnWeatherDetectGps" title="Perbarui lokasi otomatis">
+              <svg class="refresh-gps-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+              </svg>
+              <span id="btnGpsLabel" data-i18n="weather.refresh_gps">Perbarui Lokasi</span>
+            </button>
+          </div>
+
+          <div class="weather-status-meta">
+            <span class="weather-updated-badge" id="dispWeatherUpdated">Live Forecast</span>
+            <button type="button" class="btn-weather-collapse active" id="btnToggleWeatherExpand" aria-expanded="true"
+              title="Buka/Tutup Rincian Cuaca">
+              <svg class="weather-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Snapshot: Temperature, Icon, Stats, Timeline -->
+        <div class="weather-snapshot-grid">
+          <!-- Left: Big Temp & Condition -->
+          <div class="weather-temp-block">
+            <span class="weather-main-icon" id="dispWeatherIcon">🌤️</span>
+            <div class="weather-temp-wrap">
+              <div class="weather-degrees" id="dispWeatherTemp">31<span class="temp-degree">°C</span></div>
+              <div class="weather-cond-badge">
+                <span class="cond-name" id="dispWeatherCondition">Cerah Berawan</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Middle: Environmental Metrics -->
+          <div class="weather-metrics-block">
+            <div class="weather-metric-item">
+              <span class="metric-label" data-i18n="weather.feels_like">Terasa Seperti</span>
+              <span class="metric-val" id="dispWeatherFeelsLike">35°C</span>
+            </div>
+            <div class="weather-metric-item">
+              <span class="metric-label" data-i18n="weather.humidity">Kelembaban</span>
+              <span class="metric-val" id="dispWeatherHumidity">68%</span>
+            </div>
+            <div class="weather-metric-item">
+              <span class="metric-label" data-i18n="weather.wind_speed">Kecepatan Angin</span>
+              <span class="metric-val" id="dispWeatherWind">9 km/j</span>
+            </div>
+          </div>
+
+          <!-- Right: 4-Period Timeline (Pagi, Siang, Sore, Malam) -->
+          <div class="weather-timeline-block" id="weatherTimelinePills">
+            <!-- Populated dynamically: Pagi, Siang, Sore, Malam -->
+          </div>
+        </div>
+
+        <!-- Expandable Details: What to Wear / Stylist Dressing Guide -->
+        <div class="weather-dressing-drawer" id="weatherExpandableDetails">
+          <div class="weather-dressing-card">
+            <div class="dressing-guide-header">
+              <div class="guide-tag-pill">
+                <span data-i18n="weather.guide_tag">👗 Panduan Busana Hari Ini</span>
+              </div>
+              <h4 class="dressing-guide-title" id="dispDressingTitle">Smart Casual Fleksibel & Effortless</h4>
+            </div>
+
+            <p class="dressing-guide-text" id="dispDressingAdvice">
+              Cuaca di Jakarta relatif bersahabat (31°C). Anda bisa memadukan kaos crewneck basic dengan kemeja
+              overshirt terbuka yang fleksibel dilepas saat berpindah ke ruangan hangat. Celana bahan rileks melengkapi
+              siluet seimbang.
+            </p>
+
+            <!-- Recommended Garments Chips -->
+            <div class="dressing-garments-row" id="dispDressingTags">
+              <!-- Populated dynamically -->
+            </div>
+
+            <!-- Action Buttons Row -->
+            <div class="weather-actions-row">
+              <button type="button" class="btn-weather-racik" id="btnRacikByWeather"
+                title="Satu klik racik outfit yang cocok dengan cuaca hari ini">
+                <span data-i18n="weather.btn_racik">⚡ Racik Outfit Sesuai Cuaca Hari Ini</span>
+              </button>
+              <button type="button" class="btn-weather-apply" id="btnApplyWeatherToStudio">
+                <span data-i18n="weather.btn_apply">✨ Terapkan ke Form</span>
+              </button>
+              <button type="button" class="btn-weather-chat" id="btnAskWeatherInChat">
+                <span data-i18n="weather.btn_chat">💬 Tanya Stylist AI di Chat</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TAB PANEL 1: STUDIO STYLIST (Form & Chat)
+      ========================================== -->
+      <div class="workspace-panel active" id="workspace-studio">
+        <div class="studio-split-layout">
+
+          <!-- Left Column: Input Controller (Form / Chat Switcher) -->
+          <div class="studio-controller-card">
+
+            <div class="mode-capsule-switch">
+              <button class="mode-chip active" id="btnModeForm" data-mode="form" data-i18n="mode.form">
+                Form Cepat
+              </button>
+              <button class="mode-chip highlight-chip" id="btnModeSeeSomething" data-mode="see-something"
+                title="Foto outfit yang kamu suka di luar & reka ulang dari lemarimu">
+                <span data-i18n="mode.see_something">👀 See Something I Like</span>
+                <span class="new-glow-pill">HOT</span>
+              </button>
+              <button class="mode-chip" id="btnModePhoto" data-mode="photo" data-i18n="mode.photo">
+                📸 Analisis Proporsi
+              </button>
+              <button class="mode-chip" id="btnModeChat" data-mode="chat"
+                title="Bicara dengan suara atau ketik dengan asisten stylist pribadimu">
+                <span data-i18n="mode.chat">🎙️ Voice & Chat Stylist</span>
+                <span class="live-dot"></span>
+              </button>
+            </div>
+
+            <!-- View 1: Form Cepat -->
+            <div class="mode-container active" id="viewForm">
+              <form id="outfitForm" class="minimal-form">
+
+                <div class="form-field">
+                  <label for="inputAcara" class="minimal-label" data-i18n="form.occasion_label">Acara atau Momen</label>
+                  <div class="pill-chips-scroll">
+                    <button type="button" class="quick-pill chip-acara active"
+                      data-val="Interview Kerja Formal" data-i18n="form.chip_interview">Interview Kerja</button>
+                    <button type="button" class="quick-pill chip-acara" data-val="Kencan Pertama Cafe Romantis" data-i18n="form.chip_date">Kencan
+                      Cafe</button>
+                    <button type="button" class="quick-pill chip-acara"
+                      data-val="Kondangan Modern Outdoor" data-i18n="form.chip_wedding">Kondangan</button>
+                    <button type="button" class="quick-pill chip-acara" data-val="Nongkrong Santai Sore Weekend" data-i18n="form.chip_casual">Casual
+                      Weekend</button>
+                    <button type="button" class="quick-pill chip-acara"
+                      data-val="Presentasi Kampus & Kuliah" data-i18n="form.chip_campus">Kampus</button>
+                    <button type="button" class="quick-pill chip-acara"
+                      data-val="Airport Look & Traveling" data-i18n="form.chip_travel">Traveling</button>
+                  </div>
+                  <input type="text" id="inputAcara" class="minimal-input" placeholder="Tuliskan acara..."
+                    data-i18n-placeholder="form.occasion_placeholder"
+                    value="Interview Kerja Formal" required>
+                </div>
+
+                <div class="form-grid-two">
+                  <div class="form-field">
+                    <div class="form-field-header-row">
+                      <label for="selectCuaca" class="minimal-label" data-i18n="form.weather_label">Cuaca</label>
+                      <button type="button" class="btn-sync-live-weather" id="btnSyncWeatherToForm"
+                        title="Samakan dengan cuaca live saat ini">
+                        <span id="formWeatherLiveIcon">🌤️</span> <span id="formWeatherLiveText">Live: 31°C</span>
+                      </button>
+                    </div>
+                    <select id="selectCuaca" class="minimal-select">
+                      <option value="Panas Terik Tropis (30°C+)" data-icon="☀️" data-desc="Suhu di atas 30°C, prioritaskan katun adem & ringan">Panas Terik Tropis</option>
+                      <option value="Ruangan Ber-AC Dingin (Indoor)" data-icon="❄️" data-desc="Suhu sejuk 18-22°C, butuh layering tipis/outerwear" selected>Ruangan Ber-AC Dingin</option>
+                      <option value="Hujan Sejuk / Berangin" data-icon="🌧️" data-desc="Cuaca basah & sejuk, pakaian hangat atau tahan air">Hujan & Sejuk</option>
+                      <option value="Sore Teduh & Berangin" data-icon="🌤️" data-desc="Suhu hangat sejuk 25-28°C, santai & fleksibel">Sore Teduh & Angin</option>
+                      <option value="Malam Dingin / Outdoor" data-icon="🌙" data-desc="Suhu dingin malam hari, jaket/layering stylish">Malam Sejuk Outdoor</option>
+                    </select>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="selectVibe" class="minimal-label" data-i18n="form.vibe_label">Vibe Gaya</label>
+                    <select id="selectVibe" class="minimal-select">
+                      <option value="Smart Casual & Elegan" data-icon="👔" data-desc="Rapi, luwes & fleksibel untuk kantor, hangout & semi-formal" selected>Smart Casual</option>
+                      <option value="Effortless Chic" data-icon="🕶️" data-desc="Simpel berkelas, padu padan minimalis tanpa berlebihan">Effortless Chic</option>
+                      <option value="Old Money Aesthetic" data-icon="🏛️" data-desc="Klasik mewah abadi, bahan berkualitas & warna tenang (linen, knit, polo)">Old Money</option>
+                      <option value="Korean Soft Aesthetic" data-icon="🌸" data-desc="Palet pastel lembut, potongan relaxed/oversized & estetik manis">Korean Soft</option>
+                      <option value="Streetwear Trendsetter" data-icon="🛹" data-desc="Siluet oversized, statement sneakers & sentuhan grafis urban">Modern Streetwear</option>
+                      <option value="Minimalist Monochrome" data-icon="🖤" data-desc="Hitam, putih & abu-abu dengan potongan bersih dan garis tegas">Minimalis Clean</option>
+                      <option value="Earth Tone & Japandi Natural" data-icon="🌿" data-desc="Nuansa terakota, sage, krem, beige & serat kain alami">Earth Tone Chic</option>
+                      <option value="Dark Academia & Vintage Classic" data-icon="☕" data-desc="Preppy intelektual, blazer motif, rajut hangat & nuansa nostalgia">Dark Academia</option>
+                      <option value="Parisian Chic & Tailored" data-icon="🗼" data-desc="Gaya khas Paris yang feminin, trench coat, striped knit & berkelas">Parisian Chic</option>
+                      <option value="Athleisure & Sporty Luxe" data-icon="🏃" data-desc="Sporty dinamis, fungsional & nyaman untuk mobilitas aktif">Athleisure Luxe</option>
+                      <option value="Y2K Retro & Playful" data-icon="🪩" data-desc="Tren nostalgia tahun 2000-an, denim berkarakter & aksen berani">Y2K Retro</option>
+                      <option value="Formal & Black Tie Elegance" data-icon="🎩" data-desc="Gaun malam, tailored suit presisi & aksesori mewah untuk pesta resmi">Formal Glamour</option>
+                      <option value="Bohemian & Relaxed Resort" data-icon="🌻" data-desc="Flowy, motif etnik lembut, santai & bernuansa liburan tropis">Bohemian Resort</option>
+                      <option value="Vintage 90s Grunge & Denim" data-icon="🎸" data-desc="Paduan denim, flanel, jaket kulit & aura retro rebel 90-an">90s Grunge</option>
+                      <option value="Clean Aesthetic & Fresh Minimal" data-icon="✨" data-desc="Tampilan segar bercahaya, warna netral alami & detail rapi presisi">Clean Aesthetic</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Wardrobe Pairing -->
+                <div class="wardrobe-picker-minimal">
+                  <div class="picker-header">
+                    <label class="clean-checkbox">
+                      <input type="checkbox" id="checkUseWardrobe" checked>
+                      <span class="checkmark-box"></span>
+                      <span class="checkbox-caption" data-i18n="form.pair_wardrobe">Padukan pakaian dari lemariku</span>
+                    </label>
+                    <span class="items-count-tag" id="countWardrobeSync">7 item tersedia</span>
+                  </div>
+
+                  <div class="tray-scroll-zone" id="trayItemsList">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label for="inputCatatan" class="minimal-label" data-i18n="form.notes_label">Catatan Tambahan (Opsional)</label>
+                  <textarea id="inputCatatan" class="minimal-textarea" rows="2"
+                    data-i18n-placeholder="form.notes_placeholder"
+                    placeholder="Contoh: Saya ingin terlihat ramping, lebih suka celana daripada rok, hindari warna mencolok."></textarea>
+                </div>
+
+                <button type="submit" class="btn-dark-pill w-full" id="btnSubmitForm">
+                  <span data-i18n="form.submit_btn">✨ Racik Outfit dengan AI</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- View 1.5: 👀 See Something I Like (Inspo Recreator) -->
+            <div class="mode-container" id="viewSeeSomething">
+              <div class="see-something-intro">
+                <div class="intro-badge-row">
+                  <span class="feature-tag-badge">👀 Visual Inspo Recreator</span>
+                  <span class="feature-ai-pill">✨ Gemini Vision AI</span>
+                </div>
+                <h3 class="see-something-title" data-i18n="inspo.intro_title">Lihat Outfit Keren di Luar?</h3>
+                <p class="see-something-desc" data-i18n="inspo.intro_desc">
+                  Foto seseorang yang berpakaian keren (di jalan, Pinterest, atau Instagram). AI akan mendeteksi
+                  gayanya, memeriksa apa yang kamu miliki di lemarimu, dan <strong>meracik replika terbaik dari
+                    pakaianmu sendiri</strong>!
+                </p>
+              </div>
+
+              <!-- Instant Sample Presets for 1-Click Testing -->
+              <div class="inspo-presets-box">
+                <p class="presets-label" data-i18n="inspo.presets_label">⚡ Coba Cepat dengan Contoh Inspirasi:</p>
+                <div class="inspo-presets-grid">
+                  <button type="button" class="inspo-preset-card" data-preset="streetwear"
+                    title="Gaya Santai Streetwear">
+                    <span class="preset-emoji">🛹</span>
+                    <div class="preset-info">
+                      <strong class="preset-title">Casual Streetwear</strong>
+                      <span class="preset-sub">Oversized Tee + Cargo + Sneakers</span>
+                    </div>
+                  </button>
+                  <button type="button" class="inspo-preset-card" data-preset="oldmoney"
+                    title="Gaya Old Money / Quiet Luxury">
+                    <span class="preset-emoji">🏛️</span>
+                    <div class="preset-info">
+                      <strong class="preset-title">Old Money Luxury</strong>
+                      <span class="preset-sub">Linen Shirt + Tailored Pants + Loafers</span>
+                    </div>
+                  </button>
+                  <button type="button" class="inspo-preset-card" data-preset="parisian"
+                    title="Gaya Parisian Minimalist Chic">
+                    <span class="preset-emoji">☕</span>
+                    <div class="preset-info">
+                      <strong class="preset-title">Parisian Chic</strong>
+                      <span class="preset-sub">Structured Blazer + Tee + Trousers</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              <form id="seeSomethingForm" class="minimal-form">
+                <div class="form-field">
+                  <label class="minimal-label" data-i18n="inspo.upload_label">Atau Unggah / Foto Outfit yang Kamu Suka</label>
+
+                  <div class="photo-dropzone" id="seeSomethingDropzone">
+                    <input type="file" id="inputSeeSomethingFile" accept="image/jpeg,image/png,image/webp"
+                      class="photo-hidden-input">
+                    <div class="dropzone-idle" id="seeSomethingDropzoneIdle">
+                      <div class="dropzone-icon">👀</div>
+                      <p class="dropzone-title" data-i18n="inspo.dropzone_title">Ambil foto atau seret gambar outfit ke sini</p>
+                      <p class="dropzone-subtitle" data-i18n="inspo.dropzone_sub">Foto seseorang atau OOTD inspirasi (JPG, PNG, WebP)</p>
+                      <span class="dropzone-btn-fake" data-i18n="inspo.choose_btn">Pilih Foto Inspirasi</span>
+                    </div>
+
+                    <div class="dropzone-preview hidden" id="seeSomethingDropzonePreview">
+                      <img src="" id="seeSomethingPreviewImg" alt="Inspo Preview" class="preview-img">
+                      <div class="preview-meta">
+                        <span class="preview-badge" id="seeSomethingPreviewBadge" data-i18n="inspo.ready_badge">✨ Siap Direka Ulang</span>
+                        <p class="preview-filename" id="seeSomethingFileName">inspo.jpg</p>
+                        <button type="button" class="btn-remove-photo" id="btnRemoveSeeSomethingPhoto" data-i18n="inspo.change_btn">Ganti Foto</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label for="inputSeeSomethingNotes" class="minimal-label" data-i18n="photo.notes_label">Catatan Tambahan (Opsional)</label>
+                  <input type="text" id="inputSeeSomethingNotes" class="minimal-input"
+                    data-i18n-placeholder="inspo.notes_placeholder"
+                    placeholder="Misal: Saya ingin versi yang lebih santai untuk nongkrong di cafe">
+                </div>
+
+                <!-- Closet Check Benefit Banner -->
+                <div class="photo-wardrobe-banner">
+                  <span class="banner-icon">👗</span>
+                  <div class="banner-text">
+                    <p class="banner-title" data-i18n="inspo.closet_title">Pencocokan Otomatis Koleksi Lemarimu</p>
+                    <p class="banner-desc" data-i18n="inspo.closet_desc">AI akan memindai pakaian di lemarimu untuk menemukan potongan yang paling identik.</p>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn-dark-pill w-full" id="btnSubmitSeeSomething">
+                  <span data-i18n="inspo.submit_btn">✨ Deteksi Gaya & Recreate Dari Lemariku</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- View 2: Photo Matcher (FR-7 Multimodal) -->
+            <div class="mode-container" id="viewPhoto">
+              <form id="photoMatchForm" class="minimal-form">
+
+                <div class="form-field">
+                  <label class="minimal-label" data-i18n="photo.upload_label">Unggah Foto Selfie atau Seluruh Tubuh</label>
+
+                  <div class="photo-dropzone" id="photoDropzone">
+                    <input type="file" id="inputPhotoFile" accept="image/jpeg,image/png,image/webp"
+                      class="photo-hidden-input">
+                    <div class="dropzone-idle" id="dropzoneIdle">
+                      <div class="dropzone-icon">📸</div>
+                      <p class="dropzone-title" data-i18n="photo.dropzone_title">Klik atau seret foto ke sini</p>
+                      <p class="dropzone-subtitle" data-i18n="photo.dropzone_sub">Foto wajah selfie atau seluruh badan (JPG, PNG, WebP)</p>
+                      <span class="dropzone-btn-fake" data-i18n="photo.choose_btn">Pilih Foto</span>
+                    </div>
+
+                    <div class="dropzone-preview hidden" id="dropzonePreview">
+                      <img src="" id="photoPreviewImg" alt="Foto Preview" class="preview-img">
+                      <div class="preview-meta">
+                        <span class="preview-badge" data-i18n="photo.ready_badge">✨ Siap Dianalisis</span>
+                        <p class="preview-filename" id="previewFileName">foto.jpg</p>
+                        <button type="button" class="btn-remove-photo" id="btnRemovePhoto" data-i18n="photo.change_btn">Ganti Foto</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label for="inputPhotoAcara" class="minimal-label" data-i18n="photo.occasion_label">Tujuan Acara / Konteks Tampilan</label>
+                  <input type="text" id="inputPhotoAcara" class="minimal-input"
+                    data-i18n-placeholder="photo.occasion_placeholder"
+                    placeholder="Contoh: Kencan Cafe, Interview Kerja, atau Kondangan"
+                    value="Kencan Santai di Cafe Seni" required>
+                </div>
+
+                <div class="form-grid-two">
+                  <div class="form-field">
+                    <label for="selectPhotoCuaca" class="minimal-label" data-i18n="photo.cuaca_label">Cuaca</label>
+                    <select id="selectPhotoCuaca" class="minimal-select">
+                      <option value="Panas Terik Tropis (30°C+)" data-icon="☀️" data-desc="Suhu di atas 30°C, prioritaskan katun adem & ringan">Panas Terik Tropis</option>
+                      <option value="Ruangan Ber-AC Dingin (Indoor)" data-icon="❄️" data-desc="Suhu sejuk 18-22°C, butuh layering tipis/outerwear" selected>Ruangan Ber-AC Dingin</option>
+                      <option value="Hujan Sejuk / Berangin" data-icon="🌧️" data-desc="Cuaca basah & sejuk, pakaian hangat atau tahan air">Hujan & Sejuk</option>
+                      <option value="Sore Teduh & Berangin" data-icon="🌤️" data-desc="Suhu hangat sejuk 25-28°C, santai & fleksibel">Sore Teduh & Angin</option>
+                      <option value="Malam Dingin / Outdoor" data-icon="🌙" data-desc="Suhu dingin malam hari, jaket/layering stylish">Malam Sejuk Outdoor</option>
+                    </select>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="selectPhotoVibe" class="minimal-label" data-i18n="photo.vibe_label">Karakter Gaya</label>
+                    <select id="selectPhotoVibe" class="minimal-select">
+                      <option value="Smart Casual & Proporsional" data-icon="👔" data-desc="Rapi, luwes & fleksibel untuk kantor, hangout & semi-formal" selected>Smart Casual</option>
+                      <option value="Effortless Chic" data-icon="🕶️" data-desc="Simpel berkelas, padu padan minimalis tanpa berlebihan">Effortless Chic</option>
+                      <option value="Old Money & Quiet Luxury" data-icon="🏛️" data-desc="Klasik mewah abadi, bahan berkualitas & warna tenang (linen, knit, polo)">Old Money</option>
+                      <option value="Korean Soft Aesthetic" data-icon="🌸" data-desc="Palet pastel lembut, potongan relaxed/oversized & estetik manis">Korean Soft</option>
+                      <option value="Modern Streetwear & Urban Edgy" data-icon="🛹" data-desc="Siluet oversized, statement sneakers & sentuhan grafis urban">Modern Streetwear</option>
+                      <option value="Minimalist Monochrome" data-icon="🖤" data-desc="Hitam, putih & abu-abu dengan potongan bersih dan garis tegas">Minimalis Clean</option>
+                      <option value="Earth Tone & Japandi Natural" data-icon="🌿" data-desc="Nuansa terakota, sage, krem, beige & serat kain alami">Earth Tone Chic</option>
+                      <option value="Dark Academia & Vintage Classic" data-icon="☕" data-desc="Preppy intelektual, blazer motif, rajut hangat & nuansa nostalgia">Dark Academia</option>
+                      <option value="Parisian Chic & Tailored" data-icon="🗼" data-desc="Gaya khas Paris yang feminin, trench coat, striped knit & berkelas">Parisian Chic</option>
+                      <option value="Athleisure & Sporty Luxe" data-icon="🏃" data-desc="Sporty dinamis, fungsional & nyaman untuk mobilitas aktif">Athleisure Luxe</option>
+                      <option value="Y2K Retro & Playful" data-icon="🪩" data-desc="Tren nostalgia tahun 2000-an, denim berkarakter & aksen berani">Y2K Retro</option>
+                      <option value="Formal & Black Tie Elegance" data-icon="🎩" data-desc="Gaun malam, tailored suit presisi & aksesori mewah untuk pesta resmi">Formal Glamour</option>
+                      <option value="Bohemian & Relaxed Resort" data-icon="🌻" data-desc="Flowy, motif etnik lembut, santai & bernuansa liburan tropis">Bohemian Resort</option>
+                      <option value="Vintage 90s Grunge & Denim" data-icon="🎸" data-desc="Paduan denim, flanel, jaket kulit & aura retro rebel 90-an">90s Grunge</option>
+                      <option value="Clean Aesthetic & Fresh Minimal" data-icon="✨" data-desc="Tampilan segar bercahaya, warna netral alami & detail rapi presisi">Clean Aesthetic</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Wardrobe Pairing Notice -->
+                <div class="photo-wardrobe-banner">
+                  <span class="banner-icon">👗</span>
+                  <div class="banner-text">
+                    <p class="banner-title" data-i18n="photo.closet_title">Pencocokan Otomatis Lemari Pakaian</p>
+                    <p class="banner-desc" data-i18n="photo.closet_desc">AI akan mencocokkan foto fisik Anda dengan pakaian yang sudah tersimpan di
+                      lemarimu.</p>
+                  </div>
+                </div>
+
+                <div class="form-field">
+                  <label for="inputPhotoNotes" class="minimal-label" data-i18n="photo.notes_label">Catatan Tambahan (Opsional)</label>
+                  <textarea id="inputPhotoNotes" class="minimal-textarea" rows="2"
+                    data-i18n-placeholder="photo.notes_placeholder"
+                    placeholder="Contoh: Ingin menyamarkan bagian perut dan menonjolkan kaki jenjang."></textarea>
+                </div>
+
+                <button type="submit" class="btn-dark-pill w-full" id="btnSubmitPhoto">
+                  <span data-i18n="photo.submit_btn">✨ Analisis Foto & Cocokkan Outfit Lemari</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- View 2: Voice & Chat Stylist Interaktif (Multi-turn + Web Speech API) -->
+            <div class="mode-container" id="viewChat">
+              <div class="chat-flow-box">
+                <!-- Top Voice Control Toolbar -->
+                <div class="chat-voice-header">
+                  <div class="voice-status-pill" id="voiceStatusPill" title="Status asisten suara">
+                    <span class="voice-pulse-dot"></span>
+                    <span class="voice-status-label" id="voiceStatusLabel" data-i18n="chat.ready_status">Voice Assistant Ready</span>
+                  </div>
+                  <div class="voice-header-actions">
+                    <button type="button" class="btn-tts-toggle active" id="btnToggleTTS"
+                      title="Aktifkan/Nonaktifkan Suara Asisten (Text-to-Speech)">
+                      <span class="tts-icon" id="ttsIcon">🔊</span>
+                      <span class="tts-label" id="ttsLabel">Voice: ON</span>
+                    </button>
+                    <button type="button" class="btn-clear-chat" id="btnClearChatHistory" title="Mulai Obrolan Baru">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                        <path d="M3 3v5h5" />
+                      </svg>
+                      <span data-i18n="chat.reset">Reset</span>
+                    </button>
+                  </div>
+                </div>
+
+
+                <div class="chat-scroll-area" id="chatMessagesArea">
+                  <div class="chat-row msg-ai">
+                    <div class="avatar-circle">✦</div>
+                    <div class="bubble-content">
+                      <div class="bubble-header-line">
+                        <p class="bubble-author" data-i18n="chat.ai_author">Personal Stylist AI</p>
+                        <button type="button" class="btn-speak-bubble" title="Dengarkan suara stylist">🔊</button>
+                      </div>
+                      <p data-i18n="chat.welcome_msg">Halo! Saya asisten stylist pribadimu. Kamu bisa berbicara langsung menggunakan suara atau
+                        mengetik. Ceritakan rencana acaramu hari ini!</p>
+                      <div class="quick-chat-prompts">
+                        <button type="button" class="chat-pill-prompt highlight-voice-prompt">🎙️ "Hey, I need something
+                          for dinner tonight, but I don't want to wear jeans."</button>
+                        <button type="button" class="chat-pill-prompt">"Apa rekomendasi outfit terbaik untuk cuaca hari
+                          ini?"</button>
+                        <button type="button" class="chat-pill-prompt">"Tips outfit terbaik sesuai bentuk tubuh & tinggi
+                          saya"</button>
+                        <button type="button" class="chat-pill-prompt">"Ganti alas kakinya jadi clean white
+                          sneakers"</button>
+                        <button type="button" class="chat-pill-prompt">"Buat versi yang lebih santai untuk
+                          nongkrong"</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bottom Input Container with Mic & Waveform -->
+                <div class="chat-input-wrapper">
+                  <!-- Live Audio Listening Waveform Bar -->
+                  <div class="voice-listening-bar hidden" id="voiceListeningBar">
+                    <div class="sound-wave-bars">
+                      <span class="bar bar-1"></span>
+                      <span class="bar bar-2"></span>
+                      <span class="bar bar-3"></span>
+                      <span class="bar bar-4"></span>
+                      <span class="bar bar-5"></span>
+                    </div>
+                    <span class="listening-text" id="voiceListeningText" data-i18n="chat.listening">Mendengarkan suara Anda... Silakan
+                      berbicara</span>
+                    <button type="button" class="btn-cancel-voice" id="btnCancelVoice"
+                      title="Batalkan Mendengarkan">✕</button>
+                  </div>
+
+                  <form id="chatInputForm" class="chat-bottom-input">
+                    <button type="button" class="chat-voice-btn" id="btnVoiceRecord"
+                      title="Bicara dengan Voice Stylist (Tekan untuk Mulai/Berhenti)">
+                      <svg class="mic-svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                        <line x1="12" y1="19" x2="12" y2="22" />
+                      </svg>
+                      <span class="mic-ripple"></span>
+                    </button>
+                    <input type="text" id="chatTextInput" class="chat-field"
+                      data-i18n-placeholder="chat.input_field_placeholder"
+                      placeholder="Ketik pesan atau tekan 🎙️ untuk berbicara..." autocomplete="off">
+                    <button type="submit" class="chat-send-btn" id="btnSendChat" aria-label="Kirim">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13" />
+                        <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                      </svg>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Visual Outfit Lookbook Board -->
+          <div class="studio-display-card" id="outfitResultCard">
+
+            <!-- Loading Indicator Overlay -->
+            <div class="minimal-loading-veil hidden" id="loadingOverlay">
+              <div class="pulse-loader"></div>
+              <p class="loading-main-text" data-i18n="outfit.loading_title">Menyusun Padu Padan Busana...</p>
+              <p class="loading-sub-text" id="loadingTip" data-i18n="outfit.loading_sub">Menganalisis harmoni warna, siluet, dan konteks acara Anda.
+              </p>
+            </div>
+
+            <!-- Outfit Board Contents -->
+            <div id="outfitDisplayContent">
+              <div class="board-top-meta">
+                <div class="meta-badges">
+                  <span class="capsule-tag" id="resLookTag">Creative Professional</span>
+                  <span class="capsule-tag tag-subtle" id="resSourceTag">✨ Gemini AI</span>
+                </div>
+                <div class="board-action-buttons">
+                  <button class="round-action-btn" id="btnToggleFavorite" title="Simpan ke Favorit"
+                    data-i18n-title="outfit.fav_title"
+                    aria-label="Favorit">
+                    <svg class="heart-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                      stroke-width="2">
+                      <path
+                        d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                    </svg>
+                  </button>
+                  <button class="round-action-btn" id="btnCopyOutfit" title="Salin Ringkasan" aria-label="Salin"
+                    data-i18n-title="outfit.copy_title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+                      <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <h2 class="look-title" id="resJudulLook">Modern Creative Professional</h2>
+              <p class="look-context-line" id="resKonteksSummary">
+                <span id="resAcara">Interview Kerja Startup Tech</span> • <span id="resCuaca">Cerah Ber-AC</span>
+              </p>
+
+              <!-- ==============================================
+                   "SEE SOMETHING I LIKE" INSPO RECREATOR CARD
+              ============================================== -->
+              <div class="see-something-result-card hidden" id="resSeeSomethingCard">
+                <div class="inspo-detected-banner">
+                  <div class="inspo-style-pill">
+                    <span class="inspo-sparkle">👀</span>
+                    <div class="inspo-style-text">
+                      <span class="inspo-label-sub" data-i18n="inspo.style_detected">Style detected:</span>
+                      <strong class="inspo-style-name" id="resInspoStyleName">Casual streetwear</strong>
+                    </div>
+                  </div>
+                  <div class="inspo-match-pill" id="resInspoMatchPill">
+                    <span class="match-score-badge" id="resInspoMatchBadge">88% Closet Match</span>
+                  </div>
+                </div>
+
+                <p class="inspo-style-desc" id="resInspoStyleDesc">
+                  Siluet santai modern dengan perpaduan atasan boxy rileks dan celana lurus berstruktur.
+                </p>
+
+                <!-- YOUR CLOSET Checklist Card -->
+                <div class="your-closet-checklist-card">
+                  <div class="closet-checklist-header">
+                    <div class="checklist-title-group">
+                      <span class="closet-icon">👗</span>
+                      <h4>YOUR CLOSET</h4>
+                    </div>
+                    <span class="checklist-sub" data-i18n="photo.closet_desc">Pencocokan koleksi pakaian Anda</span>
+                  </div>
+
+                  <div class="closet-checklist-items" id="resClosetChecklistContainer">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+
+                <!-- Recreated Vibe Banner -->
+                <div class="inspo-recreation-note-box">
+                  <span class="note-sparkle">✨</span>
+                  <div class="note-content">
+                    <strong data-i18n="inspo.closest_match">Paling Mendekati Dari Lemarimu:</strong>
+                    <p id="resInspoRecreationNote" data-i18n="inspo.closest_desc">Berikut adalah padanan pakaian yang sudah kamu miliki di lemari untuk
+                      mereplikasi gaya ini semirip mungkin hari ini.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Photo Proportion & Undertone Evaluation Card (Shown when photo analyzed) -->
+              <div class="photo-eval-card hidden" id="resPhotoEvalCard">
+                <div class="eval-card-header">
+                  <span class="eval-badge" data-i18n="photo.eval_title">📸 Evaluasi Foto & Proporsi Tubuh</span>
+                  <span class="eval-subtext">Gemini Vision AI</span>
+                </div>
+                <div class="eval-grid">
+                  <div class="eval-item">
+                    <span class="eval-item-label" data-i18n="photo.silhouette_prop">📏 Proporsi Siluet</span>
+                    <p class="eval-item-val" id="resEvalProporsi">Garis bahu terdefinisi dengan rasio torso seimbang.
+                    </p>
+                  </div>
+                  <div class="eval-item">
+                    <span class="eval-item-label" data-i18n="photo.undertone_skin">🎨 Rona Kulit & Undertone</span>
+                    <p class="eval-item-val" id="resEvalUndertone">Warm Undertone — sangat cocok dengan warna earth tone
+                      dan broken white.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Color Palette Swatches -->
+              <div class="palette-swatch-row">
+                <span class="palette-heading" data-i18n="outfit.color_harmony">Harmoni Warna:</span>
+                <div class="swatches-collection" id="resPaletWarna">
+                  <div class="palette-color-pill" title="Pure White (#F8F9FA)">
+                    <span class="palette-color-circle" style="background-color: #F8F9FA;"></span>
+                    <span class="palette-color-name">Pure White</span>
+                    <span class="palette-color-hex">#F8F9FA</span>
+                  </div>
+                  <div class="palette-color-pill" title="Mocha Sand (#B8977E)">
+                    <span class="palette-color-circle" style="background-color: #B8977E;"></span>
+                    <span class="palette-color-name">Mocha Sand</span>
+                    <span class="palette-color-hex">#B8977E</span>
+                  </div>
+                  <div class="palette-color-pill" title="Charcoal Grey (#2F3542)">
+                    <span class="palette-color-circle" style="background-color: #2F3542;"></span>
+                    <span class="palette-color-name">Charcoal</span>
+                    <span class="palette-color-hex">#2F3542</span>
+                  </div>
+                  <div class="palette-color-pill" title="Deep Chocolate (#3E2723)">
+                    <span class="palette-color-circle" style="background-color: #3E2723;"></span>
+                    <span class="palette-color-name">Chocolate</span>
+                    <span class="palette-color-hex">#3E2723</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pieces Breakdown Cards -->
+              <div class="look-pieces-grid">
+
+                <div class="piece-box">
+                  <span class="piece-type-label" data-i18n="outfit.top">Atasan (Top)</span>
+                  <p class="piece-desc" id="resAtasan">Kemeja kerah shanghai berbahan katun poplin putih bersih</p>
+                </div>
+
+                <div class="piece-box" id="resOuterwearContainer">
+                  <span class="piece-type-label" data-i18n="outfit.outerwear">Outerwear / Layering</span>
+                  <p class="piece-desc" id="resOuterwear">Blazer oversized warna mocha sand berbahan unlined linen</p>
+                </div>
+
+                <div class="piece-box">
+                  <span class="piece-type-label" data-i18n="outfit.bottom">Bawahan (Bottom)</span>
+                  <p class="piece-desc" id="resBawahan">Celana ankle pleated tailored warna charcoal grey</p>
+                </div>
+
+                <div class="piece-box">
+                  <span class="piece-type-label" data-i18n="outfit.shoes">Alas Kaki (Footwear)</span>
+                  <p class="piece-desc" id="resAlasKaki">Leather penny loafers warna dark chocolate dengan sol chunky
+                    ringan</p>
+                </div>
+
+                <div class="piece-box span-all">
+                  <span class="piece-type-label" data-i18n="outfit.accessories">Aksesori & Aksen</span>
+                  <div class="accessories-pill-list" id="resAksesori">
+                    <span class="item-tag-pill">Jam tangan minimalis</span>
+                    <span class="item-tag-pill">Tote bag kulit tan</span>
+                    <span class="item-tag-pill">Belt kulit ramping</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Editorial Quote & Tips -->
+              <div class="editorial-card-container">
+                <div class="editorial-block">
+                  <h4 class="editorial-title" data-i18n="outfit.opinion_title">Opini & Alasan Stylist</h4>
+                  <p class="editorial-body" id="resAlasanAI">
+                    Perpaduan blazer oversized mocha dengan kemeja kerah shanghai memberi vibe modern dan approachable,
+                    sangat pas untuk lingkungan startup yang dinamis. Celana charcoal menjaga kesan kredibel dan
+                    berwibawa.
+                  </p>
+                </div>
+
+                <div class="editorial-block">
+                  <h4 class="editorial-title" data-i18n="outfit.tips_title">Tips Styling Pro</h4>
+                  <p class="editorial-body" id="resTipsStyling">
+                    Lipat lengan kemeja sedikit keluar dari lengan blazer untuk sentuhan 'effortless chic', dan gunakan
+                    teknik French tuck pada kemeja.
+                  </p>
+                </div>
+
+                <!-- Smart Wardrobe-Gap Shopping Module (Optional) -->
+                <div class="smart-shopping-capsule" id="smartShoppingModule">
+                  <div class="shopping-capsule-header" id="shoppingCapsuleHeader">
+                    <div class="shopping-header-left">
+                      <span class="shopping-badge-icon" id="resShoppingIcon">🛍️</span>
+                      <div class="shopping-header-text">
+                        <span class="shopping-kicker" data-i18n="outfit.shopping_kicker">Kapsul Belanja Pelengkap Lemari</span>
+                        <h4 class="shopping-headline"><span data-i18n="outfit.shopping_missing">Outfit Anda kurang:</span> <strong id="resMissingItemName">A lightweight
+                            black jacket</strong></h4>
+                      </div>
+                    </div>
+                    <button type="button" class="btn-shopping-toggle" id="btnToggleShopping" aria-expanded="false"
+                      title="Buka rekomendasi belanja opsional">
+                      <span id="shoppingToggleLabel" data-i18n="outfit.shopping_btn">Rekomendasi Belanja</span>
+                      <svg class="toggle-arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M6 9l6 6 6-6" />
+                      </svg>
+                    </button>
+                  </div>
+
+                  <!-- Expandable Drawer -->
+                  <div class="shopping-drawer" id="shoppingDrawer" style="display: none;">
+
+                    <!-- AI Wardrobe Synergy Value Card -->
+                    <div class="synergy-insight-card" id="resSynergyCard">
+                      <div class="synergy-spark-icon">✨</div>
+                      <div class="synergy-body">
+                        <div class="synergy-quote" id="resSynergyQuote">
+                          “A black jacket would work with 7 different outfits in your wardrobe.”
+                        </div>
+                        <p class="synergy-subtext" id="resSynergyReason">
+                          Potongan ini dirancang melengkapi outfit saat ini sekaligus memaksimalkan koleksi pakaian yang
+                          sudah Anda miliki tanpa belanja berlebihan:
+                        </p>
+                        <div class="synergy-compatible-tags" id="resSynergyTags">
+                          <!-- Filled dynamically -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Curated Products Section -->
+                    <div class="curated-items-section">
+                      <div class="curated-items-header">
+                        <div>
+                          <span class="curated-title" data-i18n="outfit.curated_title">Item Serupa & Terkurasi</span>
+                          <span class="curated-subtitle" data-i18n="outfit.curated_sub">Pilihan siap pakai yang cocok dengan toko lokal terdekat</span>
+                        </div>
+                      </div>
+                      <div class="curated-products-grid" id="resCuratedProductsGrid">
+                        <!-- Filled dynamically -->
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Refinement Bar -->
+              <div class="board-footer-bar">
+                <button class="btn-ghost-pill" id="btnRequestVariation">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                    <path d="M3 3v5h5" />
+                    <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" />
+                    <path d="M16 21h5v-5" />
+                  </svg>
+                  <span data-i18n="outfit.variation_btn">Variasi Gaya Lain</span>
+                </button>
+                <button class="btn-ghost-pill" id="btnRefineInChat">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                  <span data-i18n="outfit.refine_chat_btn">Revisi Lewat Chat</span>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ==========================================
+           TAB PANEL 2: LEMARI DIGITAL (FR-6)
+      ========================================== -->
+      <div class="workspace-panel" id="workspace-wardrobe">
+        <div class="clean-section-header">
+          <div>
+            <span class="subtle-pre-title" data-i18n="wardrobe.pretitle">Koleksi Pakaian</span>
+            <h2 class="clean-section-title" data-i18n="wardrobe.title">Lemari Digital Anda</h2>
+            <p class="clean-section-desc" data-i18n="wardrobe.desc">Pakaian yang Anda miliki. AI memprioritaskan item ini saat menyusun padu
+              padan.</p>
+          </div>
+          <div class="wardrobe-header-actions">
+            <button class="btn-ghost-pill" id="btnAnalyzeWardrobeGaps" title="Analisis potongan kunci pelengkap lemari" data-i18n="wardrobe.btn_gaps">
+              🛍️ Missing Pieces Lemari
+            </button>
+            <button class="btn-dark-pill" id="btnOpenAddWardrobeModal" data-i18n="wardrobe.btn_add">
+              + Tambah Pakaian
+            </button>
+          </div>
+        </div>
+
+        <!-- Wardrobe Gap Analysis Drawer (Optional) -->
+        <div class="wardrobe-gap-drawer" id="wardrobeGapDrawer" style="display: none;">
+          <div class="wardrobe-gap-header">
+            <div class="wardrobe-gap-title-box">
+              <span class="gap-kicker" data-i18n="wardrobe.gaps_kicker">Analisis Kapsul Lemari</span>
+              <h3 class="gap-title" data-i18n="wardrobe.gaps_title">Potongan Kunci yang Belum Anda Miliki</h3>
+              <p class="gap-desc" data-i18n="wardrobe.gaps_desc">Item berikut paling banyak membuka kombinasi padu padan baru dengan pakaian yang sudah
+                Anda miliki.</p>
+            </div>
+            <div class="wardrobe-gap-header-actions">
+              <button type="button" class="btn-refresh-gaps" id="btnRefreshWardrobeGaps" title="Acak / Analisis Ulang Potongan Kunci">
+                <span class="refresh-icon">🔄</span>
+                <span data-i18n="wardrobe.btn_refresh_gaps">Refresh Missing Pieces</span>
+              </button>
+              <button type="button" class="btn-icon-close" id="btnCloseWardrobeGaps"
+                aria-label="Tutup Analisis">&times;</button>
+            </div>
+          </div>
+          <div class="wardrobe-gap-cards-container" id="wardrobeGapCardsContainer">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <div class="clean-filter-tabs">
+          <button class="filter-pill-btn active" data-filter="all"><span data-i18n="wardrobe.filter_all">Semua</span> (<span id="filterAllCount">0</span>)</button>
+          <button class="filter-pill-btn" data-filter="atasan"><span data-i18n="wardrobe.filter_tops">Atasan</span> (<span id="filterAtasanCount">0</span>)</button>
+          <button class="filter-pill-btn" data-filter="outerwear"><span data-i18n="wardrobe.filter_outer">Outerwear</span> (<span
+              id="filterOuterCount">0</span>)</button>
+          <button class="filter-pill-btn" data-filter="bawahan"><span data-i18n="wardrobe.filter_bottoms">Bawahan</span> (<span
+              id="filterBawahanCount">0</span>)</button>
+          <button class="filter-pill-btn" data-filter="alasKaki"><span data-i18n="wardrobe.filter_shoes">Sepatu</span> (<span id="filterSepatuCount">0</span>)</button>
+          <button class="filter-pill-btn" data-filter="aksesori"><span data-i18n="wardrobe.filter_accessories">Aksesori</span> (<span
+              id="filterAksesoriCount">0</span>)</button>
+        </div>
+
+        <div class="clean-wardrobe-grid" id="wardrobeGrid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- ==========================================
+           TAB PANEL 3: RIWAYAT & FAVORIT (FR-5)
+      ========================================== -->
+      <div class="workspace-panel" id="workspace-history">
+        <div class="clean-section-header">
+          <div>
+            <span class="subtle-pre-title" data-i18n="history.pretitle">Lookbook Arsip</span>
+            <h2 class="clean-section-title" data-i18n="history.title">Riwayat Rekomendasi</h2>
+            <p class="clean-section-desc" data-i18n="history.desc">Koleksi inspirasi padu padan outfit yang pernah diracik oleh AI Stylist.</p>
+          </div>
+          <div class="pill-toggle-group">
+            <button class="toggle-pill active" id="btnShowAllHistory" data-i18n="history.toggle_all">Semua Look</button>
+            <button class="toggle-pill" id="btnShowOnlyFavorites" data-i18n="history.toggle_favs">❤️ Hanya Favorit</button>
+            <button type="button" class="btn-clear-history-pill" id="btnClearAllHistory" title="Hapus seluruh riwayat rekomendasi">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+              <span data-i18n="history.btn_clear_all">Hapus Semua</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="clean-history-grid" id="historyGrid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- ==========================================
+           TAB PANEL 4: PROFIL GAYA & TUBUH (FR-1)
+      ========================================== -->
+      <div class="workspace-panel" id="workspace-profile">
+        <div class="profile-split-layout">
+
+          <!-- Left Column: Form Edit Profil & Data Tubuh -->
+          <div class="profile-clean-card">
+            <div class="clean-section-header">
+              <div>
+                <span class="subtle-pre-title" data-i18n="profile.pretitle">Personalisasi Fisik & Selera</span>
+                <h2 class="clean-section-title" data-i18n="profile.title">Profil & Data Tubuh</h2>
+                <p class="clean-section-desc" data-i18n="profile.desc">Bantu AI memahami ukuran fisik, bentuk tubuh, dan
+                  preferensi estetika Anda.</p>
+              </div>
+            </div>
+
+            <form id="profileForm" class="minimal-form">
+              <div class="form-grid-two">
+                <div class="form-field">
+                  <label for="profNama" class="minimal-label" data-i18n="profile.name_label">Nama Panggilan</label>
+                  <input type="text" id="profNama" class="minimal-input" value="Rani Pratama">
+                </div>
+
+                <div class="form-field">
+                  <label class="minimal-label" data-i18n="profile.gender_label">Jenis Kelamin / Gender</label>
+                  <div class="gender-selector-pills" id="genderSelector">
+                    <button type="button" class="gender-pill-btn active" data-gender="female" id="btnGenderFemale">
+                      <span class="gender-icon">👩</span>
+                      <span data-i18n="profile.gender_female">Wanita (Female)</span>
+                    </button>
+                    <button type="button" class="gender-pill-btn" data-gender="male" id="btnGenderMale">
+                      <span class="gender-icon">👨</span>
+                      <span data-i18n="profile.gender_male">Pria (Male)</span>
+                    </button>
+                  </div>
+                  <input type="hidden" id="profGender" value="female">
+                </div>
+              </div>
+
+              <!-- Section: Informasi Fisik & Ukuran Tubuh -->
+              <div class="form-section-divider">
+                <span class="divider-title" data-i18n="profile.physical_divider">📏 Informasi Fisik & Ukuran
+                  Tubuh</span>
+                <span class="divider-sub" data-i18n="profile.physical_sub">Digunakan AI untuk merekomendasikan siluet &
+                  potongan busana proporsional</span>
+              </div>
+
+              <div class="form-grid-two">
+                <div class="form-field">
+                  <label for="profTinggi" class="minimal-label" data-i18n="profile.height_label">Tinggi Badan
+                    (cm)</label>
+                  <input type="number" id="profTinggi" class="minimal-input" placeholder="contoh: 165" min="100"
+                    max="230" value="165" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="profBerat" class="minimal-label" data-i18n="profile.weight_label">Berat Badan (kg)</label>
+                  <input type="number" id="profBerat" class="minimal-input" placeholder="contoh: 54" min="30" max="200"
+                    value="54" required>
+                </div>
+              </div>
+
+              <div class="form-grid-two">
+                <div class="form-field">
+                  <label for="profBentukTubuh" class="minimal-label" data-i18n="profile.body_shape_label">Bentuk Tubuh
+                    (Body Shape)</label>
+                  <select id="profBentukTubuh" class="minimal-select">
+                    <option value="Jam Pasir (Hourglass)" selected>Jam Pasir (Hourglass) — Pinggang ramping, bahu &
+                      pinggul seimbang</option>
+                    <option value="Persegi Panjang (Rectangle)">Persegi Panjang (Rectangle) — Siluet lurus, proporsi
+                      seimbang</option>
+                    <option value="Segitiga Terbalik (Inverted Triangle)">Segitiga Terbalik (Inverted Triangle) —
+                      Bahu/dada lebih lebar dari pinggul</option>
+                    <option value="Pir / Segitiga (Pear)">Pir / Segitiga (Pear) — Pinggul & paha lebih dominan dari bahu
+                    </option>
+                    <option value="Apel / Oval (Apple)">Apel / Oval (Apple) — Bagian torso/lingkar tengah lebih dominan
+                    </option>
+                    <option value="Atletis & Proporsional">Atletis & Proporsional — Bahu tegap, siluet bugar</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label for="profUkuranBaju" class="minimal-label" data-i18n="profile.size_label">Ukuran Pakaian
+                    Biasa</label>
+                  <select id="profUkuranBaju" class="minimal-select">
+                    <option value="XS">XS (Extra Small)</option>
+                    <option value="S">S (Small)</option>
+                    <option value="M" selected>M (Medium)</option>
+                    <option value="L">L (Large)</option>
+                    <option value="XL">XL (Extra Large)</option>
+                    <option value="XXL">XXL</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="profCatatanProporsi" class="minimal-label" data-i18n="profile.proportions_notes">Catatan
+                  Proporsi & Fit Khusus (Opsional)</label>
+                <input type="text" id="profCatatanProporsi" class="minimal-input"
+                  data-i18n-placeholder="profile.proportions_placeholder"
+                  placeholder="Misal: Kaki jenjang torso pendek, ingin celana high-waist"
+                  value="Kaki relatif jenjang, menyukai celana high-waist untuk mempertegas garis pinggang.">
+              </div>
+
+              <!-- Section: Preferensi Gaya & Warna -->
+              <div class="form-section-divider">
+                <span class="divider-title" data-i18n="profile.style_palette_divider">🎨 Preferensi Gaya & Palet</span>
+              </div>
+
+              <div class="form-field">
+                <label class="minimal-label" data-i18n="profile.fav_styles">Gaya Berpakaian Favorit</label>
+                <div class="multi-select-pills" id="styleTagsSelector">
+                  <button type="button" class="tag-pill-btn active" data-style="smart casual">Smart Casual</button>
+                  <button type="button" class="tag-pill-btn active" data-style="minimalis">Minimalis</button>
+                  <button type="button" class="tag-pill-btn active" data-style="earth tone">Earth Tone</button>
+                  <button type="button" class="tag-pill-btn active" data-style="old money">Old Money</button>
+                  <button type="button" class="tag-pill-btn" data-style="streetwear">Streetwear</button>
+                  <button type="button" class="tag-pill-btn" data-style="korean aesthetic">Korean Soft</button>
+                  <button type="button" class="tag-pill-btn" data-style="vintage retro">Vintage</button>
+                  <button type="button" class="tag-pill-btn" data-style="edgy black">Monochrome</button>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label class="minimal-label" data-i18n="profile.fav_colors">Palet Warna Favorit</label>
+                <div class="color-picker-circles" id="colorSwatchPicker">
+                  <button type="button" class="swatch-circle active" style="--c: #FFFFFF" data-color="#FFFFFF"
+                    title="Putih Bersih"></button>
+                  <button type="button" class="swatch-circle active" style="--c: #1E1E24" data-color="#1E1E24"
+                    title="Hitam / Charcoal"></button>
+                  <button type="button" class="swatch-circle active" style="--c: #C5A880" data-color="#C5A880"
+                    title="Champagne / Sand"></button>
+                  <button type="button" class="swatch-circle active" style="--c: #4A5D4E" data-color="#4A5D4E"
+                    title="Sage / Forest"></button>
+                  <button type="button" class="swatch-circle active" style="--c: #8C7A6B" data-color="#8C7A6B"
+                    title="Mocha Earth"></button>
+                  <button type="button" class="swatch-circle" style="--c: #1D3557" data-color="#1D3557"
+                    title="Navy Blue"></button>
+                  <button type="button" class="swatch-circle" style="--c: #C08081" data-color="#C08081"
+                    title="Dusty Rose"></button>
+                  <button type="button" class="swatch-circle" style="--c: #E76F51" data-color="#E76F51"
+                    title="Terracotta"></button>
+                </div>
+              </div>
+
+              <div class="form-grid-two">
+                <div class="form-field">
+                  <label for="profBudget" class="minimal-label" data-i18n="profile.budget_label">Tingkat Budget</label>
+                  <select id="profBudget" class="minimal-select">
+                    <option value="terjangkau" data-i18n="profile.budget_affordable">Terjangkau (Thrift / Lokal)
+                    </option>
+                    <option value="menengah" selected data-i18n="profile.budget_mid">Menengah (Brand Populer)</option>
+                    <option value="premium" data-i18n="profile.budget_premium">Premium & Designer</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label for="profTipeTubuh" class="minimal-label" data-i18n="profile.fit_label">Preferensi
+                    Potongan</label>
+                  <select id="profTipeTubuh" class="minimal-select">
+                    <option value="slim fit" data-i18n="profile.fit_slim">Slim Fit</option>
+                    <option value="regular" selected data-i18n="profile.fit_regular">Regular Fit Seimbang</option>
+                    <option value="oversized relaxed" data-i18n="profile.fit_oversized">Oversized / Relaxed</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="profBahasa" class="minimal-label" data-i18n="profile.lang_label">🌐 Preferensi Bahasa /
+                  Language</label>
+                <select id="profBahasa" class="minimal-select">
+                  <option value="id" selected data-i18n="profile.lang_id">🇮🇩 Bahasa Indonesia</option>
+                  <option value="en" data-i18n="profile.lang_en">🇬🇧 English</option>
+                </select>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn-dark-pill" id="btnSaveProfile" data-i18n="profile.btn_save">Simpan
+                  Profil & Sinkron AI</button>
+                <span class="save-status-msg" id="profileSaveStatus"></span>
+              </div>
+            </form>
+          </div>
+
+          <!-- Right Column: Live Body Profile Display & AI Stylist Tips -->
+          <div class="body-intel-card" id="bodyIntelCard">
+
+            <div class="body-intel-header">
+              <div class="body-intel-top-bar">
+                <div class="body-badge-sync">
+                  <span class="sync-dot"></span>
+                  <span data-i18n="profile.intel_badge">Tersinkron dengan Chat Stylist AI</span>
+                </div>
+                <div class="body-gender-badge" id="dispGenderBadge">
+                  <span id="dispGenderIcon">👩</span>
+                  <span id="dispGenderText" data-i18n="profile.gender_female">Wanita (Female)</span>
+                </div>
+              </div>
+              <h3 class="body-intel-title" data-i18n="profile.intel_title">Ringkasan Proporsi Tubuh</h3>
+              <p class="body-intel-desc" data-i18n="profile.intel_desc">Informasi yang dipelajari dan dianalisis AI
+                Stylist saat meracik padu padan &
+                memberikan saran.</p>
+            </div>
+
+            <!-- Body Metrics Grid Display -->
+            <div class="body-stat-grid">
+              <div class="body-stat-cell">
+                <span class="body-stat-label" data-i18n="profile.stat_height">Tinggi Badan</span>
+                <div class="body-stat-value" id="dispTinggiBadan">165 <span class="unit">cm</span></div>
+                <span class="body-stat-sub" id="dispTinggiKategori">Postur Ideal Proporsional</span>
+              </div>
+
+              <div class="body-stat-cell">
+                <span class="body-stat-label" data-i18n="profile.stat_weight">Berat Badan</span>
+                <div class="body-stat-value" id="dispBeratBadan">54 <span class="unit">kg</span></div>
+                <span class="body-stat-sub" id="dispBMILabel">BMI 19.8 • Seimbang</span>
+              </div>
+
+              <div class="body-stat-cell">
+                <span class="body-stat-label" data-i18n="profile.stat_shape">Bentuk Tubuh</span>
+                <div class="body-stat-value shape-value" id="dispBentukTubuh">Jam Pasir</div>
+                <span class="body-stat-sub" id="dispBentukSub">Garis pinggang terdefinisi</span>
+              </div>
+
+              <div class="body-stat-cell">
+                <span class="body-stat-label" data-i18n="profile.stat_size">Ukuran Busana</span>
+                <div class="body-stat-value" id="dispUkuranBaju">M</div>
+                <span class="body-stat-sub" id="dispFitSub">Regular Fit Seimbang</span>
+              </div>
+            </div>
+
+            <!-- Special Proportion Notes Card -->
+            <div class="body-proportion-note-box" id="dispProporsiNoteBox">
+              <span class="note-box-icon">📌</span>
+              <div class="note-box-text">
+                <span class="note-box-title" data-i18n="profile.note_focus">Fokus Proporsi Anda:</span>
+                <p id="dispCatatanProporsi">Kaki relatif jenjang, menyukai celana high-waist untuk mempertegas garis
+                  pinggang.</p>
+              </div>
+            </div>
+
+            <!-- AI Tailoring & Silhouette Guidance -->
+            <div class="body-silhouette-box">
+              <div class="silhouette-header">
+                <span class="silhouette-icon">✨</span>
+                <div>
+                  <h4 class="silhouette-title" data-i18n="profile.silhouette_rec_title">Rekomendasi Siluet AI untuk Postur Anda</h4>
+                  <span class="silhouette-badge" id="dispSilhouetteBadge">Flattering Silhouette</span>
+                </div>
+              </div>
+              <p class="silhouette-text" id="dispSilhouetteRules">
+                Fokuskan aksen pada penekanan garis pinggang (high-waisted pants, wrap top, tailored blazer dengan
+                kancing tunggal). Siluet ini mempertahankan keseimbangan alami bahu dan kaki Anda secara harmonis.
+              </p>
+            </div>
+
+            <!-- AI Chat Stylist Body Tips Quick Triggers -->
+            <div class="body-consult-box">
+              <div class="consult-header">
+                <div class="consult-title-row">
+                  <span class="consult-icon">💬</span>
+                  <h4 class="consult-title" data-i18n="profile.consult_title">Tanya Tips Stylist untuk Tubuh Anda</h4>
+                </div>
+                <p class="consult-desc" data-i18n="profile.consult_desc">Pilih pertanyaan cepat di bawah. AI Chat Stylist akan langsung membaca profil
+                  tubuh Anda dan memberikan saran eksklusif:</p>
+              </div>
+
+              <div class="consult-prompts-grid">
+                <button type="button" class="body-consult-prompt-btn"
+                  data-prompt="Bagaimana tips siluet pakaian terbaik untuk bentuk tubuh saya agar terlihat seimbang dan flattering?">
+                  <span>✨</span> Tips siluet terbaik untuk bentuk tubuh saya
+                </button>
+                <button type="button" class="body-consult-prompt-btn"
+                  data-prompt="Rekomendasikan model celana dan rok yang paling cocok dengan tinggi badan dan proporsi kaki saya!">
+                  <span>👖</span> Potongan celana & rok yang bikin kaki jenjang
+                </button>
+                <button type="button" class="body-consult-prompt-btn"
+                  data-prompt="Bagaimana teknik layering jaket atau blazer yang tepat untuk tinggi badan saya agar tidak terlihat tenggelam?">
+                  <span>🧥</span> Trik layering outerwear sesuai tinggi badan
+                </button>
+                <button type="button" class="body-consult-prompt-btn"
+                  data-prompt="Berikan panduan memilih model neckline atau kerah baju yang paling proporsional untuk postur saya.">
+                  <span>👔</span> Model kerah & neckline yang proporsional
+                </button>
+              </div>
+
+              <div class="consult-action-footer">
+                <button type="button" class="btn-dark-pill btn-open-body-chat" id="btnOpenBodyChatStylist">
+                  <span data-i18n="profile.btn_open_chat">Konsultasikan dengan Chat Stylist →</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ==========================================
+           TAB PANEL 5: SHOP / MARKET
+      ========================================== -->
+      <div class="workspace-panel" id="workspace-shop">
+        <div class="clean-section-header">
+          <div>
+            <span class="subtle-pre-title" data-i18n="shop.pretitle">Belanja Langsung</span>
+            <h2 class="clean-section-title" data-i18n="shop.title">Fashion Market</h2>
+            <p class="clean-section-desc" data-i18n="shop.desc">Koleksi terkurasi dari brand fashion ternama. Klik produk untuk langsung
+              menuju toko resmi.</p>
+          </div>
+        </div>
+
+        <!-- Brand Filter Pills -->
+        <div class="shop-brand-filters" id="shopBrandFilters">
+          <button class="shop-filter-pill active" data-brand="all" data-i18n="shop.brand_all">✦ Semua Brand</button>
+          <button class="shop-filter-pill" data-brand="zara">ZARA</button>
+          <button class="shop-filter-pill" data-brand="uniqlo">UNIQLO</button>
+          <button class="shop-filter-pill" data-brand="hm">H&M</button>
+          <button class="shop-filter-pill" data-brand="nike">NIKE</button>
+          <button class="shop-filter-pill" data-brand="adidas">ADIDAS</button>
+          <button class="shop-filter-pill" data-brand="mango">MANGO</button>
+          <button class="shop-filter-pill" data-brand="cos">COS</button>
+          <button class="shop-filter-pill" data-brand="pullbear">PULL&BEAR</button>
+          <button class="shop-filter-pill" data-brand="massimo">MASSIMO DUTTI</button>
+          <button class="shop-filter-pill" data-brand="levi">LEVI'S</button>
+          <button class="shop-filter-pill" data-brand="nb">NEW BALANCE</button>
+          <button class="shop-filter-pill" data-brand="converse">CONVERSE</button>
+          <button class="shop-filter-pill" data-brand="bershka">BERSHKA</button>
+          <button class="shop-filter-pill" data-brand="stradivarius">STRADIVARIUS</button>
+          <button class="shop-filter-pill" data-brand="ralphlauren">RALPH LAUREN</button>
+          <button class="shop-filter-pill" data-brand="tommy">TOMMY HILFIGER</button>
+          <button class="shop-filter-pill" data-brand="ck">CALVIN KLEIN</button>
+          <button class="shop-filter-pill" data-brand="vans">VANS</button>
+          <button class="shop-filter-pill" data-brand="asics">ASICS</button>
+          <button class="shop-filter-pill" data-brand="drmartens">DR. MARTENS</button>
+          <button class="shop-filter-pill" data-brand="tnf">THE NORTH FACE</button>
+          <button class="shop-filter-pill" data-brand="gucci">GUCCI</button>
+        </div>
+
+        <!-- Category Chips -->
+        <div class="shop-category-row">
+          <button class="shop-cat-chip active" data-cat="all" data-i18n="shop.cat_all">All</button>
+          <button class="shop-cat-chip" data-cat="tops" data-i18n="shop.cat_tops">Tops</button>
+          <button class="shop-cat-chip" data-cat="bottoms" data-i18n="shop.cat_bottoms">Bottoms</button>
+          <button class="shop-cat-chip" data-cat="outerwear" data-i18n="shop.cat_outerwear">Outerwear</button>
+          <button class="shop-cat-chip" data-cat="shoes" data-i18n="shop.cat_shoes">Shoes</button>
+          <button class="shop-cat-chip" data-cat="accessories" data-i18n="shop.cat_accessories">Accessories</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="shop-product-grid" id="shopProductGrid">
+          <!-- Products will be rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==============================================
+       4. STORE LOCATOR SECTION (GOOGLE MAPS)
+  ============================================== -->
+  <section class="stores-section" id="stores-section">
+    <div class="container-workspace">
+
+      <div class="clean-section-header">
+        <div>
+          <span class="subtle-pre-title" data-i18n="stores.pretitle">Eksplorasi Offline</span>
+          <h2 class="clean-section-title" data-i18n="stores.title">Toko Pakaian Terdekat</h2>
+          <p class="clean-section-desc" data-i18n="stores.desc">Temukan butik desainer, toko retail fashion, dan thrift shop di sekitar lokasimu
+            untuk melengkapi padu padan outfit.</p>
+        </div>
+
+        <div class="stores-location-action">
+          <div class="location-status-pill" id="locCurrentStatus">
+            <span data-i18n="stores.status_locating">📍 Menemukan koordinat lokasi Anda...</span>
+          </div>
+          <button type="button" class="btn-detect-gps" id="btnDetectLocation" title="Deteksi Ulang Lokasi GPS">
+            <span class="gps-beacon-dot"></span>
+            <span data-i18n="stores.btn_detect">Deteksi Lokasi GPS</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Filter Chips & Search Bar -->
+      <div class="stores-controls-wrapper">
+        <div class="stores-filter-chips">
+          <button type="button" class="store-filter-pill active" data-store-category="all" data-i18n="stores.filter_all">Semua Toko</button>
+          <button type="button" class="store-filter-pill" data-store-category="mall" data-i18n="stores.filter_mall">Mall & Brand Populer</button>
+          <button type="button" class="store-filter-pill" data-store-category="thrift" data-i18n="stores.filter_thrift">Thrift & Vintage</button>
+          <button type="button" class="store-filter-pill" data-store-category="boutique" data-i18n="stores.filter_boutique">Butik Desainer Lokal</button>
+          <button type="button" class="store-filter-pill" data-store-category="tailor" data-i18n="stores.filter_tailor">Tailor & Jahit</button>
+        </div>
+
+        <div class="stores-search-bar">
+          <input type="text" id="inputStoreSearch" class="store-search-field"
+            data-i18n-placeholder="stores.search_placeholder"
+            placeholder="Cari nama toko, mall, atau kawasan...">
+          <button type="button" class="store-search-submit" id="btnSearchStore" aria-label="Cari Toko">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Split Layout: Google Maps Embed View + Store Cards Stack -->
+      <div class="stores-split-layout">
+
+        <!-- Left: Interactive Google Maps Embed Container -->
+        <div class="map-embed-wrapper">
+          <div class="map-top-bar">
+            <div class="map-top-info">
+              <span class="map-live-tag">Google Maps Live</span>
+              <p class="map-caption" id="mapCurrentQueryCaption">Menampilkan toko pakaian terdekat</p>
+            </div>
+            <a href="https://www.google.com/maps/search/clothing+store" target="_blank" rel="noopener noreferrer"
+              class="btn-external-maps" id="btnOpenDirectGoogleMaps" data-i18n="stores.open_maps">
+              Buka di Google Maps ↗
+            </a>
+          </div>
+
+          <div class="map-frame-container">
+            <iframe id="googleMapsIframe" title="Peta Toko Pakaian Terdekat"
+              src="https://maps.google.com/maps?q=clothing+store+fashion+boutique&ll=-6.2088,106.8456&z=13&output=embed"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Right: Curated Store Cards Stack -->
+        <div class="stores-sidebar-wrapper">
+          <div class="stores-sidebar-header">
+            <h3 class="stores-sidebar-title" data-i18n="stores.sidebar_title">Rekomendasi Terpilih</h3>
+            <span class="stores-sidebar-subtitle" data-i18n="stores.sidebar_sub">Klik untuk melihat lokasi di peta</span>
+          </div>
+          <div class="stores-cards-stack" id="storesCardContainer">
+            <!-- Populated dynamically by StoreLocator.renderStoreCards() -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================================
+       5. FOOTER SECTION
+  ============================================== -->
+  <!-- ==============================================
+       5. ULTRA-CHIC EDITORIAL FOOTER
+  ============================================== -->
+  <footer class="site-footer" id="siteFooter">
+    <!-- Ambient glowing backdrop effect -->
+    <div class="footer-ambient-mesh" aria-hidden="true"></div>
+
+    <div class="footer-inner">
+      <!-- Top Row: Big Brand Manifesto & Live AI Badge -->
+      <div class="footer-manifesto-row">
+        <div class="footer-brand-lockup">
+          <div class="footer-brand-headline">
+            <span class="brand-sparkle">✦</span>
+            <span class="brand-logotype">Styl<span class="brand-accent">O</span></span>
+            <span class="brand-edition-pill">Studio Edition</span>
+          </div>
+          <p class="footer-tagline" data-i18n="footer.tagline">Dress with ease. Style with intelligence.</p>
+          <p class="footer-subtext" data-i18n="footer.quote">Design smarter with personal AI that understands your
+            silhouette and wardrobe.</p>
+        </div>
+
+        <div class="footer-status-card">
+          <div class="footer-ai-pulse">
+            <span class="pulse-ring"></span>
+            <span class="pulse-dot"></span>
+          </div>
+          <div class="footer-status-details">
+            <div class="footer-status-title" data-i18n="footer.system_ready">Sistem Gemini 3.5 Flash Aktif</div>
+            <div class="footer-status-sub" data-i18n="footer.local_privacy">🔒 Privasi Data & Penyimpanan Lokal Aman
+            </div>
+          </div>
+          <div class="footer-chip-live">LIVE</div>
+        </div>
+      </div>
+
+      <!-- Middle Grid: 4 Core Fashion & AI Intelligence Pillars -->
+      <div class="footer-pillars-grid">
+        <div class="footer-pillar-card">
+          <div class="pillar-icon">📏</div>
+          <h4 class="pillar-title" data-i18n="footer.feature1_title">Kalibrasi Proporsi AI</h4>
+          <p class="pillar-desc" data-i18n="footer.feature1_desc">Analisis siluet tubuh untuk paduan busana yang
+            proporsional.</p>
+        </div>
+
+        <div class="footer-pillar-card">
+          <div class="pillar-icon">🎨</div>
+          <h4 class="pillar-title" data-i18n="footer.feature2_title">Harmoni Warna & Rona</h4>
+          <p class="pillar-desc" data-i18n="footer.feature2_desc">Pencocokan kontras warna undertone yang mengangkat
+            pesona alami.</p>
+        </div>
+
+        <div class="footer-pillar-card">
+          <div class="pillar-icon">🌤️</div>
+          <h4 class="pillar-title" data-i18n="footer.feature4_title">Adaptasi Cuaca Cerdas</h4>
+          <p class="pillar-desc" data-i18n="footer.feature4_desc">Rekomendasi real-time berdasarkan suhu dan kondisi
+            atmosfer hari ini.</p>
+        </div>
+      </div>
+
+      <!-- Fast Access Navigation Pills -->
+      <div class="footer-quick-nav">
+        <span class="quick-nav-label" data-i18n="footer.nav_title">Navigasi Cepat:</span>
+        <div class="quick-nav-pills">
+          <a href="#hero-section" class="footer-nav-chip" data-tab-target="hero"><span>✦</span> Home</a>
+          <a href="#studio-section" class="footer-nav-chip" data-tab-target="studio"><span>🪄</span> Studio AI</a>
+          <a href="#studio-section" class="footer-nav-chip" data-tab-target="wardrobe"><span>👕</span> Lemari</a>
+          <a href="#studio-section" class="footer-nav-chip" data-tab-target="shop"><span>🛍️</span> Shop</a>
+          <a href="#studio-section" class="footer-nav-chip" data-tab-target="history"><span>📜</span> Riwayat</a>
+          <a href="#studio-section" class="footer-nav-chip" data-tab-target="profile"><span>👤</span> Profil</a>
+          <a href="#stores-section" class="footer-nav-chip" data-tab-target="stores"><span>📍</span> Toko</a>
+        </div>
+      </div>
+
+      <!-- Bottom Bar: Copyright & Interactive Smooth Scroll Back to Top -->
+      <div class="footer-bottom-bar">
+        <span class="footer-copyright-text" data-i18n="footer.copyright">© 2026 StylO • Padu Padan AI. Hak cipta
+          dilindungi.</span>
+        <a href="#hero-section" class="footer-scroll-top-btn" id="footerBackToTopBtn" aria-label="Scroll back to top">
+          <span data-i18n="footer.back_to_top">Kembali ke Atas</span>
+          <span class="scroll-top-arrow">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==============================================
+       MODAL: TAMBAH PAKAIAN KE LEMARI
+  ============================================== -->
+  <div class="modal-backdrop hidden" id="modalAddWardrobe">
+    <div class="modal-card">
+      <div class="modal-top">
+        <h3 class="modal-heading" data-i18n="modal.add_title">Tambah Pakaian Baru</h3>
+        <button class="modal-close-btn" id="btnCloseAddWardrobe">&times;</button>
+      </div>
+      <form id="formAddWardrobe" class="minimal-form">
+        <div class="form-field">
+          <label for="wardNama" class="minimal-label" data-i18n="modal.name_label">Nama Pakaian</label>
+          <input type="text" id="wardNama" class="minimal-input"
+            data-i18n-placeholder="modal.name_placeholder"
+            placeholder="Contoh: Kemeja Linen Putih Kerah Shanghai"
+            required>
+        </div>
+
+        <div class="form-grid-two">
+          <div class="form-field">
+            <label for="wardKategori" class="minimal-label" data-i18n="modal.cat_label">Kategori</label>
+            <select id="wardKategori" class="minimal-select" required>
+              <option value="atasan" data-i18n="modal.cat_top">Atasan (Top)</option>
+              <option value="outerwear" data-i18n="modal.cat_outer">Outerwear (Blazer/Jaket)</option>
+              <option value="bawahan" data-i18n="modal.cat_bottom">Bawahan (Pants/Skirt)</option>
+              <option value="alasKaki" data-i18n="modal.cat_shoes">Alas Kaki (Shoes/Sneakers)</option>
+              <option value="aksesori" data-i18n="modal.cat_acc">Aksesori / Tas</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="wardWarna" class="minimal-label" data-i18n="modal.color_label">Warna Utama</label>
+            <input type="text" id="wardWarna" class="minimal-input"
+              data-i18n-placeholder="modal.color_placeholder"
+              placeholder="Misal: Putih Bersih, Hitam, Sage"
+              required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="wardTag" class="minimal-label" data-i18n="modal.tag_label">Tag Gaya (Pisahkan dengan koma)</label>
+          <input type="text" id="wardTag" class="minimal-input"
+            data-i18n-placeholder="modal.tag_placeholder"
+            placeholder="Misal: formal, casual, adem, linen">
+        </div>
+
+        <div class="form-field">
+          <label for="wardCatatan" class="minimal-label" data-i18n="modal.notes_label">Catatan Tambahan</label>
+          <input type="text" id="wardCatatan" class="minimal-input"
+            data-i18n-placeholder="modal.notes_placeholder"
+            placeholder="Misal: Bahan katun adem, pas untuk cuaca panas">
+        </div>
+
+        <div class="modal-footer-btns">
+          <button type="button" class="btn-ghost-pill" id="btnCancelAddWardrobe" data-i18n="modal.btn_cancel">Batal</button>
+          <button type="submit" class="btn-dark-pill" data-i18n="modal.btn_save">Simpan Pakaian</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==============================================
+       MODAL: CUSTOM CONFIRMATION POPUP (Minimalist Luxury)
+  ============================================== -->
+  <div class="custom-confirm-backdrop hidden" id="customConfirmModal" role="dialog" aria-modal="true" aria-labelledby="customConfirmTitle">
+    <div class="custom-confirm-card">
+      <div class="custom-confirm-icon-box" id="customConfirmIconBox">
+        <span class="custom-confirm-icon" id="customConfirmIcon">🗑️</span>
+      </div>
+      <h3 class="custom-confirm-title" id="customConfirmTitle" data-i18n="confirm.default_title">Konfirmasi Hapus</h3>
+      <p class="custom-confirm-message" id="customConfirmMessage" data-i18n="confirm.default_msg">Apakah Anda yakin ingin menghapus item ini?</p>
+      <div class="custom-confirm-actions">
+        <button type="button" class="btn-confirm-cancel" id="btnCustomConfirmCancel" data-i18n="confirm.btn_cancel">Batal</button>
+        <button type="button" class="btn-confirm-danger" id="btnCustomConfirmDanger" data-i18n="confirm.btn_delete">Hapus</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-stack" id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/outfit-card.js"></script>
+  <script src="js/wardrobe.js"></script>
+  <script src="js/store-locator.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

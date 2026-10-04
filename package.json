@@ -1,0 +1,29 @@
+{
+  "name": "padu-padan-ai",
+  "version": "1.0.0",
+  "description": "Asisten Pemilih & Pencocok Outfit Berbasis AI - Personal Digital Stylist",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "fashion",
+    "outfit",
+    "stylist",
+    "gemini-ai",
+    "padu-padan"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "allowScripts": {
+    "@google/genai": true,
+    "protobufjs": true
+  }
+}

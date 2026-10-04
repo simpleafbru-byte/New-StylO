@@ -1,0 +1,291 @@
+[
+  {
+    "id": "rec_1791097116837",
+    "userId": "usr_default",
+    "konteks": {
+      "acara": "Interview Kerja Formal",
+      "cuaca": "Ruangan Ber-AC Dingin (Indoor)",
+      "suasana": "Smart Casual & Elegan",
+      "catatanPengguna": ""
+    },
+    "outfit": {
+      "judulLook": "Modern Executive Elegance",
+      "atasan": "Kemeja tailored poplin katun putih bersih kerah lancip",
+      "outerwear": "Single-breasted tailored blazer warna charcoal grey dengan kancing tanduk",
+      "bawahan": "Pleated tailored trousers warna senada atau taupe gelap dengan siluet straight leg",
+      "alasKaki": "Leather Oxford atau Penny Loafers warna dark espresso mengkilap",
+      "aksesori": [
+        "Jam tangan dial minimalis dengan tali kulit hitam",
+        "Tas kerja kulit berstruktur warna hitam/dark brown",
+        "Sabuk kulit halus dengan buckle silver matte"
+      ],
+      "paletWarna": [
+        {
+          "nama": "Crisp White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "nama": "Charcoal Noir",
+          "hex": "#2B2D42"
+        },
+        {
+          "nama": "Taupe Stone",
+          "hex": "#8D99AE"
+        },
+        {
+          "nama": "Dark Espresso",
+          "hex": "#1D1E2C"
+        }
+      ]
+    },
+    "alasanAI": "Untuk konteks \"Interview Kerja Formal\", siluet tailored blazer memberikan kesan kompeten dan berwibawa seketika. Pemilihan warna netral monokrom dengan kontras putih bersih memancarkan ketegasan profesional tanpa terlihat monoton.",
+    "tipsStyling": "Pastikan bahu blazer pas sempurna di pundak dan ujung kemeja mengintip sekitar 1 cm dari lengan blazer untuk sentuhan bespoke tailoring.",
+    "saranArahBelanja": "Pertimbangkan memiliki celana bahan berbahan wool-blend atau unlined linen blazer yang nyaman untuk iklim tropis ber-AC.",
+    "shoppingRecommendation": {
+      "missingItem": "Unlined Charcoal Wool-Blend Blazer",
+      "kategori": "outerwear",
+      "icon": "🧥",
+      "alasanKebutuhan": "Blazer berpotongan clean-line memberikan sentuhan tailored profesional instan tanpa terasa kaku.",
+      "wardrobeSynergyCount": 1,
+      "wardrobeSynergyReason": "A unlined charcoal wool-blend blazer would work with 1 different outfits in your wardrobe.",
+      "compatibleWardrobeItems": [],
+      "curatedItems": [
+        {
+          "id": "shop_1791097116837_1",
+          "nama": "Relaxed Lightweight Cotton Utility Jacket",
+          "brand": "Uniqlo",
+          "estimasiHarga": "Rp 499.000",
+          "badge": "✨ Best Wardrobe Match",
+          "warna": "Hitam / Dark Noir",
+          "warnaHex": "#1E1E24",
+          "kategori": "outerwear",
+          "alasanCocok": "Potongan versatile dengan bahan adem yang sangat mudah di-layering di atas kaos maupun kemeja Anda.",
+          "link": "https://www.google.com/search?q=uniqlo+Unlined%20Charcoal%20Wool-Blend%20Blazer+indonesia",
+          "queryStore": "Uniqlo Grand Indonesia"
+        },
+        {
+          "id": "shop_1791097116837_2",
+          "nama": "Minimal Tailored Cropped Overshirt",
+          "brand": "Zara",
+          "estimasiHarga": "Rp 799.000",
+          "badge": "💎 Contemporary Tailoring",
+          "warna": "Hitam / Dark Noir",
+          "warnaHex": "#1E1E24",
+          "kategori": "outerwear",
+          "alasanCocok": "Siluet tegas berkarakter modern untuk elevating outfit kasual ke smart casual seketika.",
+          "link": "https://www.google.com/search?q=zara+Unlined%20Charcoal%20Wool-Blend%20Blazer+indonesia",
+          "queryStore": "Zara Senayan City"
+        },
+        {
+          "id": "shop_1791097116837_3",
+          "nama": "Vintage Denim & Cotton Chore Coat",
+          "brand": "Pasar Senen Thrift",
+          "estimasiHarga": "Rp 165.000",
+          "badge": "🌿 Eco & Budget Choice",
+          "warna": "Hitam / Dark Noir",
+          "warnaHex": "#1E1E24",
+          "kategori": "outerwear",
+          "alasanCocok": "Karakter vintage dengan tekstur washed unik berbobot ringan dan ramah di kantong.",
+          "link": "https://www.google.com/search?q=pasar+senen+thrift+Unlined%20Charcoal%20Wool-Blend%20Blazer",
+          "queryStore": "Pasar Senen Blok III (Pusat Thrifting)"
+        }
+      ]
+    },
+    "favorit": false,
+    "isAIGenerated": false,
+    "dibuatPada": "2026-10-04T06:58:36.837Z"
+  },
+  {
+    "id": "rec_photo_1791096668304",
+    "userId": "usr_default",
+    "konteks": {
+      "acara": "Client Meeting",
+      "cuaca": "Ruangan Ber-AC Dingin",
+      "suasana": "Old Money Elegant",
+      "catatanPengguna": "",
+      "sumber": "Photo Outfit Matcher (Gemini Vision)"
+    },
+    "evaluasiFoto": {
+      "proporsiTubuh": "Garis bahu terdefinisi dengan rasio torso yang proporsional. Sangat serasi dengan potongan tailored dan siluet clean-line.",
+      "undertoneWarna": "Warm Earth Undertone — rona kulit Anda bersinar maksimal dengan palet broken white, sand beige, dan charcoal contrast.",
+      "karakterVisual": "Modern, grounded, dan effortless natural confidence."
+    },
+    "outfit": {
+      "judulLook": "Proportion-Balanced Earthy Tailoring",
+      "atasan": "Kemeja Putih",
+      "outerwear": "Oversized Blazer Sand Beige",
+      "bawahan": "Pleated Ankle Trousers Charcoal Grey",
+      "alasKaki": "Leather Penny Loafers Dark Brown",
+      "aksesori": [
+        "Jam tangan minimalis kulit",
+        "Tote bag kulit berstruktur"
+      ],
+      "paletWarna": [
+        {
+          "nama": "Ivory White",
+          "hex": "#FAF9F6"
+        },
+        {
+          "nama": "Sand Beige",
+          "hex": "#D8C3A5"
+        },
+        {
+          "nama": "Charcoal Noir",
+          "hex": "#2B2D42"
+        }
+      ]
+    },
+    "alasanAI": "Kombinasi atasan linen putih dan blazer oversized dari lemari Anda menciptakan garis vertikal yang memperpanjang siluet tubuh, serasi dengan kontras celana charcoal yang merampingkan garis kaki.",
+    "tipsStyling": "Gunakan teknik half-tuck pada kemeja untuk menonjolkan garis pinggang tanpa mengurangi kenyamanan rileks.",
+    "saranArahBelanja": "Sabuk kulit minimalis warna senada sepatu untuk mempertegas transisi torso dan kaki.",
+    "shoppingRecommendation": {
+      "missingItem": "Minimalist Leather Belt & Loafers",
+      "kategori": "alasKaki",
+      "icon": "👟",
+      "alasanKebutuhan": "Sabuk kulit minimalis mempertegas proporsi torso-kaki dan menyeimbangkan warna sepatu.",
+      "wardrobeSynergyCount": 7,
+      "wardrobeSynergyReason": "A minimalist leather belt & loafers would work with 7 different outfits in your wardrobe.",
+      "compatibleWardrobeItems": [
+        "Pleated Ankle Trousers Charcoal Grey",
+        "Wide-leg Highwaist Denim Biru Medium"
+      ],
+      "curatedItems": [
+        {
+          "id": "shop_1791096668304_1",
+          "nama": "Classic Leather Penny Loafers",
+          "brand": "Uniqlo / Pedro",
+          "estimasiHarga": "Rp 599.000",
+          "badge": "✨ Best Everyday Match",
+          "warna": "Dark Espresso",
+          "warnaHex": "#2D1E18",
+          "kategori": "alasKaki",
+          "alasanCocok": "Sol ergonomis empuk dengan siluet clean yang cocok dengan celana bahan maupun denim.",
+          "link": "https://www.google.com/search?q=Minimalist%20Leather%20Belt%20%26%20Loafers+indonesia",
+          "queryStore": "Uniqlo Grand Indonesia"
+        },
+        {
+          "id": "shop_1791096668304_2",
+          "nama": "Chunky Track Sole Loafers",
+          "brand": "Zara",
+          "estimasiHarga": "Rp 899.000",
+          "badge": "💎 Fashion Editorial",
+          "warna": "Polished Noir",
+          "warnaHex": "#1C1C1E",
+          "kategori": "alasKaki",
+          "alasanCocok": "Aksen berkelas yang mempertegas proporsi kaki dan tampilan keseluruhan.",
+          "link": "https://www.google.com/search?q=zara+Minimalist%20Leather%20Belt%20%26%20Loafers+indonesia",
+          "queryStore": "Zara Senayan City"
+        },
+        {
+          "id": "shop_1791096668304_3",
+          "nama": "Classic Leather Loafers Curated",
+          "brand": "Pasar Senen Thrift / Metro Atom",
+          "estimasiHarga": "Rp 220.000",
+          "badge": "🌿 Vintage Bargain",
+          "warna": "Chestnut Brown",
+          "warnaHex": "#4E3629",
+          "kategori": "alasKaki",
+          "alasanCocok": "Kualitas kulit asli dengan patina alami yang tahan lama.",
+          "link": "https://www.google.com/search?q=thrift+shoes+Minimalist%20Leather%20Belt%20%26%20Loafers",
+          "queryStore": "Metro Atom Plaza Pasar Baru"
+        }
+      ]
+    },
+    "favorit": true,
+    "isAIGenerated": false,
+    "isPhotoMatched": true,
+    "dibuatPada": "2026-10-04T06:51:08.304Z"
+  },
+  {
+    "id": "rec_1791096133313",
+    "userId": "usr_default",
+    "konteks": {
+      "acara": "Revisi Chat"
+    },
+    "outfit": {
+      "judulLook": "Polished Earth-Tone Smart Casual",
+      "atasan": "Classic fitted white silk-blend button-down shirt",
+      "outerwear": "Tailored structured blazer in Camel (#C5A880)",
+      "bawahan": "High-waisted tapered trousers in Charcoal Black (#1E1E24)",
+      "alasKaki": "Pointed-toe low block heels in nude or soft black",
+      "aksesori": [
+        "Minimalist gold wrist watch",
+        "Simple gold stud earrings",
+        "Structured black leather tote bag"
+      ],
+      "paletWarna": [
+        {
+          "nama": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "nama": "Charcoal Black",
+          "hex": "#1E1E24"
+        },
+        {
+          "nama": "Camel",
+          "hex": "#C5A880"
+        }
+      ],
+      "alasanAI": "This look balances professional structure with your preferred minimalist aesthetic. The high-waisted trousers elongate your 168 cm height, while tucking in the shirt neatly defines your hourglass waist under the structured camel blazer.",
+      "tipsStyling": "Fully tuck in your shirt to emphasize your waistline. Keep your hair neat and jewelry minimal to let your confidence shine through.",
+      "saranArahBelanja": "Look for high-waisted tapered trousers in crepe fabric and a lightweight, structured blazer in warm neutrals."
+    },
+    "alasanAI": "This look balances professional structure with your preferred minimalist aesthetic. The high-waisted trousers elongate your 168 cm height, while tucking in the shirt neatly defines your hourglass waist under the structured camel blazer.",
+    "tipsStyling": "Fully tuck in your shirt to emphasize your waistline. Keep your hair neat and jewelry minimal to let your confidence shine through.",
+    "saranArahBelanja": "Look for high-waisted tapered trousers in crepe fabric and a lightweight, structured blazer in warm neutrals.",
+    "shoppingRecommendation": {
+      "missingItem": "Look for high-waisted tapered trousers in crepe ...",
+      "kategori": "bawahan",
+      "icon": "👖",
+      "alasanKebutuhan": "Sentuhan Look for high-waisted tapered trousers in crepe ... akan mengikat tampilan Polished Earth-Tone Smart Casual menjadi lebih utuh, proporsional, dan adaptif terhadap perubahan suasana.",
+      "wardrobeSynergyCount": 3,
+      "wardrobeSynergyReason": "A look for high-waisted tapered trousers in crepe ... would work with 3 different outfits in your wardrobe.",
+      "compatibleWardrobeItems": [],
+      "curatedItems": [
+        {
+          "id": "shop_1791096133314_1",
+          "nama": "Relaxed Essential Look for high-waisted tapered trousers in crepe ...",
+          "brand": "Uniqlo",
+          "estimasiHarga": "Rp 399.000",
+          "badge": "✨ Best Wardrobe Match",
+          "warna": "Neutral Harmony",
+          "warnaHex": "#BCAAA4",
+          "kategori": "bawahan",
+          "alasanCocok": "Material katun bernapas dengan potongan modern yang nyaman dipakai seharian.",
+          "link": "https://www.google.com/search?q=uniqlo+Look%20for%20high-waisted%20tapered%20trousers%20in%20crepe%20...+indonesia",
+          "queryStore": "Uniqlo Grand Indonesia"
+        },
+        {
+          "id": "shop_1791096133314_2",
+          "nama": "Contemporary Tailored Look for high-waisted tapered trousers in crepe ...",
+          "brand": "Zara",
+          "estimasiHarga": "Rp 699.000",
+          "badge": "💎 Elevated Modern",
+          "warna": "Soft Sand",
+          "warnaHex": "#D7CCC8",
+          "kategori": "bawahan",
+          "alasanCocok": "Jahitan presisi yang memberi aksen estetis dan siluet proporsional.",
+          "link": "https://www.google.com/search?q=zara+Look%20for%20high-waisted%20tapered%20trousers%20in%20crepe%20...+indonesia",
+          "queryStore": "Zara Senayan City"
+        },
+        {
+          "id": "shop_1791096133314_3",
+          "nama": "Curated Heritage Look for high-waisted tapered trousers in crepe ...",
+          "brand": "Pasar Baru / Local Brand",
+          "estimasiHarga": "Rp 180.000",
+          "badge": "🌿 Budget & Timeless",
+          "warna": "Warm Khaki",
+          "warnaHex": "#A1887F",
+          "kategori": "bawahan",
+          "alasanCocok": "Pilihan ekonomis berkualitas tinggi dengan karakter unik.",
+          "link": "https://www.google.com/search?q=Look%20for%20high-waisted%20tapered%20trousers%20in%20crepe%20...+pasar+baru",
+          "queryStore": "Metro Atom Plaza Pasar Baru"
+        }
+      ]
+    },
+    "favorit": false,
+    "isAIGenerated": true,
+    "dibuatPada": "2026-10-04T06:42:13.314Z"
+  }
+]
